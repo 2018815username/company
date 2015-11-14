@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>hassepline</key>
+        <string>0</string>
+        <key>quotesettings</key>
+        <array>
+            <string>沪深|12004|TZTHSStockTableView</string>
+            <string>板块|12013|TZTHSStockTableView</string>
+            <string>港股|12005|TZTHSStockTableView</string>
+            <string>全球|12009|TZTHSStockTableView</string>
+            <string>更多|12018|tztMarketMoreView|/zsjy/app/hqmore/hqmore.html</string>
+        </array>
+    </dict>
+</plist>

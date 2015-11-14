@@ -1,0 +1,57 @@
+//
+//  tztControls.pch
+//  tztControl
+//
+//  Created by King on 15-1-19.
+//  Copyright (c) 2015年 tzt. All rights reserved.
+//
+
+#ifndef tztControl_tztControls_pch
+#define tztControl_tztControls_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+/**
+ *	键盘显示通知响应事件
+ */
+#define TZTUIKeyboardDidShowNotification @"TZT_ShowKeyBoard"
+
+/**
+ *	键盘隐藏通知响应事件
+ */
+#define TZTUIKeyboardDidHideNotification @"TZT_HideKeyBoard"
+
+
+#define TZTNotifi_CheckTradeGrid            @"TZTNotifi_CheckTradeGrid"
+//主题切换
+#define TZTNotifi_ChangeTheme               @"TZTNotifi_ChangeTheme"
+
+
+#define TZTNotifi_HiddenMoreView            @"TZTNotifi_HiddenMoreView"
+
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <tztMobileBase/tztMoblieBasedef.h>
+#import <tztMobileBase/tztMobileBase.h>
+#import <tztMobileBase/tztNSLocation.h>
+//#import <tztMobileBase/tztStatusBar.h>
+
+#import "TZTUIMessageBox.h"
+#import "tztStockType.h"
+#import "TZTSystermConfig.h"
+#import "TZTUIImageDefine.h"
+#import "TZTUIBaseView.h"
+#import "tztUICheckButton.h"
+#import "tztUISwitch.h"
+
+//#import "TZTUIBaseViewController.h"
+#import "tztUIBaseViewDelegate.h"
+#import "UIColor_TZTColor.h"
+
+#endif
+
+#endif

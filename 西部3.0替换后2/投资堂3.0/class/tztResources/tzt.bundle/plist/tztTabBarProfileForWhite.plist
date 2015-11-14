@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>tztToolbar</key>
+	<array>
+		<dict>
+			<key>tztToolbarItem</key>
+			<string>0x00010001|tzt_toolbar_home.png||首页|1||</string>
+		</dict>
+		<dict>
+			<key>tztToolbarItem</key>
+			<string>0x00010002|tzt_toolbar_market.png||行情|综合排名||</string>
+		</dict>
+		<dict>
+			<key>tztToolbarItem</key>
+			<string>0x00010003|tzt_toolbar_info.png||资讯|资讯中心||</string>
+		</dict>
+		<dict>
+			<key>tztToolbarItem</key>
+			<string>0x00010004|tzt_toolbar_trade.png||交易|委托交易||</string>
+		</dict>
+		<dict>
+			<key>tztToolbarItem</key>
+			<string>0x00010006|tzt_toolbar_more.png||设置|系统设置||</string>
+		</dict>
+	</array>
+	<key>DrawName</key>
+	<string>1</string>
+	<key>AutoLayout</key>
+	<string>0</string>
+	<key>MaxDisplay</key>
+	<string>-1</string>
+	<key>HightImage</key>
+	<string>tzt_footbarselectbg.png</string>
+	<key>MarginTail</key>
+	<string>0</string>
+	<key>DrawNameColor</key>
+	<string>183,183,183</string>
+	<key>MarginHead</key>
+	<string>0</string>
+</dict>
+</plist>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>tablelist</key>
+		<array>
+			<dict>
+				<key>Image</key>
+				<string>TZTLB</string>
+				<key>Expanded</key>
+				<string>0</string>
+				<key>Level</key>
+				<string>0</string>
+				<key>Show</key>
+				<string>1</string>
+				<key>itemarray</key>
+				<array>
+					<dict>
+						<key>itemtype</key>
+						<string>TZTLabel</string>
+						<key>itemproperty</key>
+						<string>text=选择查询类别|rect=0,,120,|</string>
+					</dict>
+					<dict>
+						<key>itemtype</key>
+						<string>TZTComBox</string>
+						<key>itemproperty</key>
+						<string>tag=1000|rect=,,180,|title=查询类别|placeholder=选择查询类别|</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>Image</key>
+				<string>TZTDM</string>
+				<key>Expanded</key>
+				<string>0</string>
+				<key>Show</key>
+				<string>1</string>
+				<key>itemarray</key>
+				<array>
+					<dict>
+						<key>itemtype</key>
+						<string>TZTLabel</string>
+						<key>itemproperty</key>
+						<string>text=输入股票代码|rect=0,,120,|</string>
+					</dict>
+					<dict>
+						<key>itemtype</key>
+						<string>tztedit</string>
+						<key>itemproperty</key>
+						<string>tag=2000|rect=,,180,|keyboardtype=number|placeholder=股票代码|maxlen=6|maxaction=1|tpye=nodot|</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>Image</key>
+				<string>TZTCZ</string>
+				<key>Expanded</key>
+				<string>0</string>
+				<key>Show</key>
+				<string>1</string>
+				<key>itemarray</key>
+				<array>
+					<dict>
+						<key>itemtype</key>
+						<string>TZTButton</string>
+						<key>itemproperty</key>
+						<string>tag=6000|title=确 定|rect=20%,,30%,|backimage=TZTButtonBackSmall.png|textcolor=255,255,255|</string>
+					</dict>
+					<dict>
+						<key>itemtype</key>
+						<string>TZTButton</string>
+						<key>itemproperty</key>
+						<string>tag=6001|title=返 回|rect=,,30%,|backimage=TZTButtonBackSmall.png|textcolor=255,255,255|</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+		<key>tableproperty</key>
+		<string>radius=5|rect=0,0,100%,100%|cellheight=10%|autocalcul=1|gridline=1|</string>
+	</dict>
+</array>
+</plist>

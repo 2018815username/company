@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AppTitle</key>
+	<string>佣金宝开户</string>
+	<key>CompanyName</key>
+	<string>杭州中焯信息技术股份有限公司</string>
+	<key>SysFromVer</key>
+	<string>1.01.001</string>
+	<key>YYBCode</key>
+	<string>16384</string>
+	<key>CFrom</key>
+	<string>tzt.iphone.kh.gjsdk</string>
+	<key>JiZhongJY</key>
+	<string>0</string>
+	<key>KhShowFirstWeb</key>
+	<string>1</string>
+	<key>KhUrl</key>
+	<string>/sjkh/uploadid.htm</string>
+	<key>KhYyVideoUrl</key>
+	<string>/sjkh/reservation.htm</string>
+	<key>KhYyVideoSuccess</key>
+	<string>/sjkh/fail.htm?state=1</string>
+	<key>KhVideoFail</key>
+	<string>/sjkh/fail.htm?state=3</string>
+	<key>KhFirstWeb</key>
+	<string>/sjkh/index.htm</string>
+	<key>KhCertlicense</key>
+	<string>cFpjM2o1MC82WnllU1pMQ0ZOanpMRlRVSVJlMVY0am1iSDdmRmJWNHRhNlp3ejJCMll1WURsNzNDcmI3MXpFeWpRMFFvZ3o1bEsyVmpFN2tyL2lUN1A0WGVabUlDek01UEwwZ01heXV0S2JobUZFTkZ6c09Xczlhd2tSdzFkTGo1Yi9LT0U5Y0JnT09GK3BBejZ2ZUsrSmh6SlJUSkdGdDJXRWVyRjJORTA4PXsiaWQiOjEsInR5cGUiOiJ0ZXN0IiwicGxhdGZvcm0iOjEsIm5vdGJlZm9yZSI6IjIwMTQwMzIxIiwibm90YWZ0ZXIiOiIyMDE0MDYyMSJ9</string>
+	<key>ServerList</key>
+	<string>mkh.gjzq.com.cn</string>
+	<key>ServerDefault</key>
+	<string>mkh.gjzq.com.cn</string>
+	<key>JYServerPort</key>
+	<string>7778</string>
+	<key>ZXServerPort</key>
+	<string>7778</string>
+	<key>JhServer</key>
+	<string>mkh.gjzq.com.cn</string>
+	<key>JhPort</key>
+	<string>7778</string>
+	<key>JhOpen</key>
+	<string>0</string>
+	<key>VideoServer</key>
+	<string>mkh.gjzq.com.cn
+</string>
+	<key>VideoPort</key>
+	<string>8906</string>
+</dict>
+</plist>

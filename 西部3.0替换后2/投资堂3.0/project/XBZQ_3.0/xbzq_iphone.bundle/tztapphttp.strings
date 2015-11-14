@@ -1,0 +1,15 @@
+/*
+ tztapphttp.strings
+ http相关配置文件
+ */
+//配置文件版本号
+"tztver" = "2.01.006";
+/***********  页面相关配置  ***************/
+//自定义URL 参数分割符
+"tztapp_httpsep" = "&&";
+//http 过期时效
+"tztapp_http_maxage" = "1800";
+//http 进度条颜色 RGB
+"tztapp_http_progbarcolor" = "43,178,211";
+//是否显示进度条
+"tztapp_http_progbarshow" = "0";

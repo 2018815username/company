@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>tablelist</key>
+		<array>
+			<dict>
+				<key>Image</key>
+				<string>TZTSALE5</string>
+				<key>Expanded</key>
+				<string>0</string>
+				<key>Show</key>
+				<string>1</string>
+				<key>itemarray</key>
+				<array>
+					<dict>
+						<key>itemtype</key>
+						<string>TZTLabel</string>
+						<key>itemproperty</key>
+						<string>text=卖一|rect=,,10%,|adjustsfontsizetofitwidth=1|textalignment=center|font=12|</string>
+					</dict>
+					<dict>
+						<key>itemtype</key>
+						<string>TZTButton</string>
+						<key>itemproperty</key>
+						<string>tag=7010|type=custom|rect=,,18%,|font=13|</string>
+					</dict>
+					<dict>
+						<key>itemtype</key>
+						<string>TZTButton</string>
+						<key>itemproperty</key>
+						<string>tag=7030|type=custom|rect=,,18%,|font=13|</string>
+					</dict>
+					<dict>
+						<key>itemtype</key>
+						<string>TZTLabel</string>
+						<key>itemproperty</key>
+						<string>text=买一|rect=48%,,10%,|adjustsfontsizetofitwidth=1||textalignment=center|font=12|</string>
+					</dict>
+					<dict>
+						<key>itemtype</key>
+						<string>TZTButton</string>
+						<key>itemproperty</key>
+						<string>tag=7000|type=custom|rect=,,18%,|font=13|</string>
+					</dict>
+					<dict>
+						<key>itemtype</key>
+						<string>TZTButton</string>
+						<key>itemproperty</key>
+						<string>tag=7020|type=custom|rect=,,18%,|font=13|</string>
+					</dict>
+				</array>
+			</dict>
+		</array>
+		<key>tableproperty</key>
+		<string>|cellheight=28|backgroundcolor=48,48,48|gridcolor=62,62,62|gridline=1|radius=0|</string>
+	</dict>
+</array>
+</plist>

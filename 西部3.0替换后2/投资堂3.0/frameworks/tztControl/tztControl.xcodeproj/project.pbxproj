@@ -1,0 +1,1017 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		9CB414C71A6D0C9700613BC0 /* tztControlDoc */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 9CB414CA1A6D0C9700613BC0 /* Build configuration list for PBXAggregateTarget "tztControlDoc" */;
+			buildPhases = (
+				9CB414CB1A6D0C9D00613BC0 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = tztControlDoc;
+			productName = tztControlDoc;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04133D8A1AB9667D00B1FF15 /* tztUserSaveDataObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 04133D881AB9667D00B1FF15 /* tztUserSaveDataObj.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04133D8B1AB9667D00B1FF15 /* tztUserSaveDataObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 04133D891AB9667D00B1FF15 /* tztUserSaveDataObj.m */; };
+		3034478B1BF33D73006AC3C6 /* TZTUIMessageBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 303447891BF33D73006AC3C6 /* TZTUIMessageBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3034478C1BF33D73006AC3C6 /* TZTUIMessageBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 3034478A1BF33D73006AC3C6 /* TZTUIMessageBox.m */; };
+		303447941BF344E9006AC3C6 /* tztPieView.h in Headers */ = {isa = PBXBuildFile; fileRef = 303447921BF344E9006AC3C6 /* tztPieView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303447951BF344E9006AC3C6 /* tztPieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 303447931BF344E9006AC3C6 /* tztPieView.m */; };
+		303447981BF34590006AC3C6 /* tztHTTPWebView.h in Headers */ = {isa = PBXBuildFile; fileRef = 303447961BF34590006AC3C6 /* tztHTTPWebView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303447991BF34590006AC3C6 /* tztHTTPWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 303447971BF34590006AC3C6 /* tztHTTPWebView.m */; };
+		3034479C1BF34642006AC3C6 /* tztStatusBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 3034479A1BF34642006AC3C6 /* tztStatusBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3034479D1BF34642006AC3C6 /* tztStatusBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3034479B1BF34642006AC3C6 /* tztStatusBar.m */; };
+		303447A01BF347B6006AC3C6 /* tztMessageLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3034479E1BF347B6006AC3C6 /* tztMessageLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303447A11BF347B6006AC3C6 /* tztMessageLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3034479F1BF347B6006AC3C6 /* tztMessageLabel.m */; };
+		303447A41BF348BF006AC3C6 /* tztUIHelperImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 303447A21BF348BF006AC3C6 /* tztUIHelperImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303447A51BF348BF006AC3C6 /* tztUIHelperImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 303447A31BF348BF006AC3C6 /* tztUIHelperImageView.m */; };
+		303447B51BF34EFB006AC3C6 /* UIView+UIView_tztExtern.h in Headers */ = {isa = PBXBuildFile; fileRef = 303447B31BF34EFB006AC3C6 /* UIView+UIView_tztExtern.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		303447B61BF34EFB006AC3C6 /* UIView+UIView_tztExtern.m in Sources */ = {isa = PBXBuildFile; fileRef = 303447B41BF34EFB006AC3C6 /* UIView+UIView_tztExtern.m */; };
+		9C09A0ED1A7603DE00C70526 /* TZTSegmentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C09A0EB1A7603DE00C70526 /* TZTSegmentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C09A0EE1A7603DE00C70526 /* TZTSegmentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C09A0EC1A7603DE00C70526 /* TZTSegmentView.m */; };
+		9C09A0F11A76041E00C70526 /* TZTSegSectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C09A0EF1A76041E00C70526 /* TZTSegSectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C09A0F21A76041E00C70526 /* TZTSegSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C09A0F01A76041E00C70526 /* TZTSegSectionView.m */; };
+		9C205FCE1A7785800008588F /* tztTabView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C205FCC1A7785800008588F /* tztTabView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C205FCF1A7785800008588F /* tztTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C205FCD1A7785800008588F /* tztTabView.m */; };
+		9C3A28531A6F332700DC70AB /* tztUINewTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3A284F1A6F332700DC70AB /* tztUINewTitleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C3A28541A6F332700DC70AB /* tztUINewTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A28501A6F332700DC70AB /* tztUINewTitleView.m */; };
+		9C3A28551A6F332700DC70AB /* tztUISegment.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3A28511A6F332700DC70AB /* tztUISegment.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C3A28561A6F332700DC70AB /* tztUISegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A28521A6F332700DC70AB /* tztUISegment.m */; };
+		9C3A28641A6F3FD400DC70AB /* tztUIFunctionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3A28621A6F3FD400DC70AB /* tztUIFunctionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C3A28651A6F3FD400DC70AB /* tztUIFunctionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A28631A6F3FD400DC70AB /* tztUIFunctionView.m */; };
+		9C3A292A1A6F7DF500DC70AB /* TZTTagView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3A29281A6F7DF500DC70AB /* TZTTagView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C3A292B1A6F7DF500DC70AB /* TZTTagView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A29291A6F7DF500DC70AB /* TZTTagView.m */; };
+		9C3EF15F1A6E321500878638 /* tztControls.pch in Headers */ = {isa = PBXBuildFile; fileRef = 9C86254F1A6CDC080073EDC5 /* tztControls.pch */; };
+		9C3EF1F71A6E42E000878638 /* TZTUIToolBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3EF1F51A6E42E000878638 /* TZTUIToolBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C3EF1F81A6E42E000878638 /* TZTUIToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3EF1F61A6E42E000878638 /* TZTUIToolBarView.m */; };
+		9C3EF1FB1A6E443D00878638 /* tztUITradeToolBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3EF1F91A6E443D00878638 /* tztUITradeToolBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C3EF1FC1A6E443D00878638 /* tztUITradeToolBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3EF1FA1A6E443D00878638 /* tztUITradeToolBarView.m */; };
+		9C3EF2011A6E44F300878638 /* TZTUIBaseTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3EF1FD1A6E44F300878638 /* TZTUIBaseTitleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C3EF2021A6E44F300878638 /* TZTUIBaseTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3EF1FE1A6E44F300878638 /* TZTUIBaseTitleView.m */; };
+		9C3EF2031A6E44F300878638 /* TZTUIBaseTitleViewOld.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3EF1FF1A6E44F300878638 /* TZTUIBaseTitleViewOld.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C3EF2041A6E44F300878638 /* TZTUIBaseTitleViewOld.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3EF2001A6E44F300878638 /* TZTUIBaseTitleViewOld.m */; };
+		9C8624961A6CDAE30073EDC5 /* tztControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624951A6CDAE30073EDC5 /* tztControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8624FE1A6CDBC10073EDC5 /* CUCustomSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624AD1A6CDBC10073EDC5 /* CUCustomSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8624FF1A6CDBC10073EDC5 /* CUCustomSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624AE1A6CDBC10073EDC5 /* CUCustomSwitch.m */; };
+		9C8625021A6CDBC10073EDC5 /* TZTCMyComboxView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624B11A6CDBC10073EDC5 /* TZTCMyComboxView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625031A6CDBC10073EDC5 /* TZTCMyComboxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624B21A6CDBC10073EDC5 /* TZTCMyComboxView.m */; };
+		9C8625041A6CDBC10073EDC5 /* tztGroupRadioView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624B31A6CDBC10073EDC5 /* tztGroupRadioView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625051A6CDBC10073EDC5 /* tztGroupRadioView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624B41A6CDBC10073EDC5 /* tztGroupRadioView.m */; };
+		9C8625061A6CDBC10073EDC5 /* tztKeyboardView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624B51A6CDBC10073EDC5 /* tztKeyboardView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625071A6CDBC10073EDC5 /* tztKeyboardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624B61A6CDBC10073EDC5 /* tztKeyboardView.m */; };
+		9C8625081A6CDBC10073EDC5 /* tztMutilScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624B71A6CDBC10073EDC5 /* tztMutilScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625091A6CDBC10073EDC5 /* tztMutilScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624B81A6CDBC10073EDC5 /* tztMutilScrollView.m */; };
+		9C86250A1A6CDBC10073EDC5 /* tztPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624B91A6CDBC10073EDC5 /* tztPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C86250B1A6CDBC10073EDC5 /* tztPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624BA1A6CDBC10073EDC5 /* tztPageControl.m */; };
+		9C86250C1A6CDBC10073EDC5 /* TZTPageInfoItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624BB1A6CDBC10073EDC5 /* TZTPageInfoItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C86250D1A6CDBC10073EDC5 /* TZTPageInfoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624BC1A6CDBC10073EDC5 /* TZTPageInfoItem.m */; };
+		9C86250E1A6CDBC10073EDC5 /* TZTSevenSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624BD1A6CDBC10073EDC5 /* TZTSevenSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C86250F1A6CDBC10073EDC5 /* TZTSevenSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624BE1A6CDBC10073EDC5 /* TZTSevenSwitch.m */; };
+		9C8625101A6CDBC10073EDC5 /* TZTTabBarProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624BF1A6CDBC10073EDC5 /* TZTTabBarProfile.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625111A6CDBC10073EDC5 /* TZTTabBarProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624C01A6CDBC10073EDC5 /* TZTTabBarProfile.m */; };
+		9C8625271A6CDBC10073EDC5 /* tztUIAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624D81A6CDBC10073EDC5 /* tztUIAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625281A6CDBC10073EDC5 /* tztUIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624D91A6CDBC10073EDC5 /* tztUIAlertView.m */; };
+		9C8625291A6CDBC10073EDC5 /* tztUIBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624DA1A6CDBC10073EDC5 /* tztUIBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C86252A1A6CDBC10073EDC5 /* tztUIBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624DB1A6CDBC10073EDC5 /* tztUIBarButtonItem.m */; };
+		9C86252B1A6CDBC10073EDC5 /* tztUIBaseControlsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624DC1A6CDBC10073EDC5 /* tztUIBaseControlsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C86252C1A6CDBC10073EDC5 /* tztUIBaseControlsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624DD1A6CDBC10073EDC5 /* tztUIBaseControlsView.m */; };
+		9C86252D1A6CDBC10073EDC5 /* tztUIBaseViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624DE1A6CDBC10073EDC5 /* tztUIBaseViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C86252E1A6CDBC10073EDC5 /* tztUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624DF1A6CDBC10073EDC5 /* tztUIButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C86252F1A6CDBC10073EDC5 /* tztUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624E01A6CDBC10073EDC5 /* tztUIButton.m */; };
+		9C8625301A6CDBC10073EDC5 /* tztUICheckButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624E11A6CDBC10073EDC5 /* tztUICheckButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625311A6CDBC10073EDC5 /* tztUICheckButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624E21A6CDBC10073EDC5 /* tztUICheckButton.m */; };
+		9C8625321A6CDBC10073EDC5 /* tztUIControlsInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624E31A6CDBC10073EDC5 /* tztUIControlsInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625331A6CDBC10073EDC5 /* tztUIControlsProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624E41A6CDBC10073EDC5 /* tztUIControlsProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625341A6CDBC10073EDC5 /* tztUIControlsProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624E51A6CDBC10073EDC5 /* tztUIControlsProperty.m */; };
+		9C8625351A6CDBC10073EDC5 /* tztUIDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624E61A6CDBC10073EDC5 /* tztUIDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625361A6CDBC10073EDC5 /* tztUIDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624E71A6CDBC10073EDC5 /* tztUIDatePicker.m */; };
+		9C8625391A6CDBC10073EDC5 /* tztUIDroplistView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624EA1A6CDBC10073EDC5 /* tztUIDroplistView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C86253A1A6CDBC10073EDC5 /* tztUIDroplistView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624EB1A6CDBC10073EDC5 /* tztUIDroplistView.m */; };
+		9C86253B1A6CDBC10073EDC5 /* tztUILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624EC1A6CDBC10073EDC5 /* tztUILabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C86253C1A6CDBC10073EDC5 /* tztUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624ED1A6CDBC10073EDC5 /* tztUILabel.m */; };
+		9C86253D1A6CDBC10073EDC5 /* tztUINineGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624EE1A6CDBC10073EDC5 /* tztUINineGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C86253E1A6CDBC10073EDC5 /* tztUINineGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624EF1A6CDBC10073EDC5 /* tztUINineGridView.m */; };
+		9C86253F1A6CDBC10073EDC5 /* tztUIProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624F01A6CDBC10073EDC5 /* tztUIProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625401A6CDBC10073EDC5 /* tztUIProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624F11A6CDBC10073EDC5 /* tztUIProgressView.m */; };
+		9C8625411A6CDBC10073EDC5 /* tztUISwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624F21A6CDBC10073EDC5 /* tztUISwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625421A6CDBC10073EDC5 /* tztUISwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624F31A6CDBC10073EDC5 /* tztUISwitch.m */; };
+		9C8625431A6CDBC10073EDC5 /* TZTUITabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624F41A6CDBC10073EDC5 /* TZTUITabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625441A6CDBC10073EDC5 /* TZTUITabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624F51A6CDBC10073EDC5 /* TZTUITabBarItem.m */; };
+		9C8625451A6CDBC10073EDC5 /* tztUITextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624F61A6CDBC10073EDC5 /* tztUITextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625461A6CDBC10073EDC5 /* tztUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624F71A6CDBC10073EDC5 /* tztUITextField.m */; };
+		9C8625471A6CDBC10073EDC5 /* tztUITextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624F81A6CDBC10073EDC5 /* tztUITextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625481A6CDBC10073EDC5 /* tztUITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624F91A6CDBC10073EDC5 /* tztUITextView.m */; };
+		9C8625491A6CDBC10073EDC5 /* tztUIVCBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624FA1A6CDBC10073EDC5 /* tztUIVCBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C86254A1A6CDBC10073EDC5 /* tztUIVCBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624FB1A6CDBC10073EDC5 /* tztUIVCBaseView.m */; };
+		9C86254B1A6CDBC10073EDC5 /* WZGuideViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8624FC1A6CDBC10073EDC5 /* WZGuideViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C86254C1A6CDBC10073EDC5 /* WZGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8624FD1A6CDBC10073EDC5 /* WZGuideViewController.m */; };
+		9C8625521A6CDC860073EDC5 /* TZTOutLineData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8625501A6CDC860073EDC5 /* TZTOutLineData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625531A6CDC860073EDC5 /* TZTOutLineData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8625511A6CDC860073EDC5 /* TZTOutLineData.m */; };
+		9C8625561A6CDDE10073EDC5 /* UIColor_TZTColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8625541A6CDDE10073EDC5 /* UIColor_TZTColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625571A6CDDE10073EDC5 /* UIColor_TZTColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8625551A6CDDE10073EDC5 /* UIColor_TZTColor.m */; };
+		9C8625611A6CF5310073EDC5 /* TZTSystermConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C86255F1A6CF5310073EDC5 /* TZTSystermConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625621A6CF5310073EDC5 /* TZTSystermConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8625601A6CF5310073EDC5 /* TZTSystermConfig.m */; };
+		9C86256B1A6CF5FD0073EDC5 /* TZTUIBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8625671A6CF5FD0073EDC5 /* TZTUIBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C86256C1A6CF5FD0073EDC5 /* TZTUIBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8625681A6CF5FD0073EDC5 /* TZTUIBaseView.m */; };
+		9C86256F1A6CF6430073EDC5 /* tztStockInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C86256D1A6CF6430073EDC5 /* tztStockInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625701A6CF6430073EDC5 /* tztStockInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C86256E1A6CF6430073EDC5 /* tztStockInfo.m */; };
+		9C8625861A6CF6AD0073EDC5 /* TZTGridDataObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8625721A6CF6AD0073EDC5 /* TZTGridDataObj.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625871A6CF6AD0073EDC5 /* TZTGridDataObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8625731A6CF6AD0073EDC5 /* TZTGridDataObj.m */; };
+		9C8625881A6CF6AD0073EDC5 /* TZTUIBaseGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8625741A6CF6AD0073EDC5 /* TZTUIBaseGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625891A6CF6AD0073EDC5 /* TZTUIBaseGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8625751A6CF6AD0073EDC5 /* TZTUIBaseGridView.m */; };
+		9C86258A1A6CF6AD0073EDC5 /* TZTUIHQINCenterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8625761A6CF6AD0073EDC5 /* TZTUIHQINCenterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C86258B1A6CF6AD0073EDC5 /* TZTUIHQINCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8625771A6CF6AD0073EDC5 /* TZTUIHQINCenterView.m */; };
+		9C86258C1A6CF6AD0073EDC5 /* TZTUIHQINLeftView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8625781A6CF6AD0073EDC5 /* TZTUIHQINLeftView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C86258D1A6CF6AD0073EDC5 /* TZTUIHQINLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8625791A6CF6AD0073EDC5 /* TZTUIHQINLeftView.m */; };
+		9C86258E1A6CF6AD0073EDC5 /* TZTUIHQINTopView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C86257A1A6CF6AD0073EDC5 /* TZTUIHQINTopView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C86258F1A6CF6AD0073EDC5 /* TZTUIHQINTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C86257B1A6CF6AD0073EDC5 /* TZTUIHQINTopView.m */; };
+		9C8625901A6CF6AD0073EDC5 /* TZTUIImageDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C86257C1A6CF6AD0073EDC5 /* TZTUIImageDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625911A6CF6AD0073EDC5 /* TZTUIReportGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C86257D1A6CF6AD0073EDC5 /* TZTUIReportGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625921A6CF6AD0073EDC5 /* TZTUIReportGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C86257E1A6CF6AD0073EDC5 /* TZTUIReportGridView.m */; };
+		9C8625931A6CF6AD0073EDC5 /* tztUITableListCellView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8625801A6CF6AD0073EDC5 /* tztUITableListCellView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625941A6CF6AD0073EDC5 /* tztUITableListCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8625811A6CF6AD0073EDC5 /* tztUITableListCellView.m */; };
+		9C8625951A6CF6AD0073EDC5 /* tztUITableListInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8625821A6CF6AD0073EDC5 /* tztUITableListInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625961A6CF6AD0073EDC5 /* tztUITableListInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8625831A6CF6AD0073EDC5 /* tztUITableListInfo.m */; };
+		9C8625971A6CF6AD0073EDC5 /* tztUITableListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8625841A6CF6AD0073EDC5 /* tztUITableListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625981A6CF6AD0073EDC5 /* tztUITableListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8625851A6CF6AD0073EDC5 /* tztUITableListView.m */; };
+		9C8625A71A6CF70A0073EDC5 /* tztToolbarMoreView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8625A51A6CF70A0073EDC5 /* tztToolbarMoreView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C8625A81A6CF70A0073EDC5 /* tztToolbarMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8625A61A6CF70A0073EDC5 /* tztToolbarMoreView.m */; };
+		9C8625AD1A6D035B0073EDC5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8625AC1A6D035B0073EDC5 /* libz.dylib */; };
+		9C8625AF1A6D03600073EDC5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8625AE1A6D03600073EDC5 /* libsqlite3.dylib */; };
+		9CB414551A6D067D00613BC0 /* tztStockType.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8625AA1A6D01360073EDC5 /* tztStockType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CECC82E1A81B5AA0040F017 /* tztIdentifyCodeView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CECC82C1A81B5AA0040F017 /* tztIdentifyCodeView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CECC82F1A81B5AA0040F017 /* tztIdentifyCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CECC82D1A81B5AA0040F017 /* tztIdentifyCodeView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CAABCE51A91E3F10098AF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CAABCE01A91E3F10098AF7A /* tztbase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C10B60C1772902900AECB1E;
+			remoteInfo = tztMobileBase;
+		};
+		9CAABCE71A91E3F10098AF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CAABCE01A91E3F10098AF7A /* tztbase.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C0CA75E17D5700900C42133;
+			remoteInfo = tztMacOSBase;
+		};
+		9CAABCE91A91E3F60098AF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CAABCE01A91E3F10098AF7A /* tztbase.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C10B60B1772902900AECB1E;
+			remoteInfo = tztMobileBase;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04133D881AB9667D00B1FF15 /* tztUserSaveDataObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tztUserSaveDataObj.h; path = tztControls/tztUserSaveDataObj.h; sourceTree = "<group>"; };
+		04133D891AB9667D00B1FF15 /* tztUserSaveDataObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tztUserSaveDataObj.m; path = tztControls/tztUserSaveDataObj.m; sourceTree = "<group>"; };
+		303447891BF33D73006AC3C6 /* TZTUIMessageBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTUIMessageBox.h; sourceTree = "<group>"; };
+		3034478A1BF33D73006AC3C6 /* TZTUIMessageBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTUIMessageBox.m; sourceTree = "<group>"; };
+		303447921BF344E9006AC3C6 /* tztPieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztPieView.h; sourceTree = "<group>"; };
+		303447931BF344E9006AC3C6 /* tztPieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztPieView.m; sourceTree = "<group>"; };
+		303447961BF34590006AC3C6 /* tztHTTPWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztHTTPWebView.h; sourceTree = "<group>"; };
+		303447971BF34590006AC3C6 /* tztHTTPWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztHTTPWebView.m; sourceTree = "<group>"; };
+		3034479A1BF34642006AC3C6 /* tztStatusBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztStatusBar.h; sourceTree = "<group>"; };
+		3034479B1BF34642006AC3C6 /* tztStatusBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztStatusBar.m; sourceTree = "<group>"; };
+		3034479E1BF347B6006AC3C6 /* tztMessageLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztMessageLabel.h; sourceTree = "<group>"; };
+		3034479F1BF347B6006AC3C6 /* tztMessageLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztMessageLabel.m; sourceTree = "<group>"; };
+		303447A21BF348BF006AC3C6 /* tztUIHelperImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUIHelperImageView.h; sourceTree = "<group>"; };
+		303447A31BF348BF006AC3C6 /* tztUIHelperImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUIHelperImageView.m; sourceTree = "<group>"; };
+		303447B31BF34EFB006AC3C6 /* UIView+UIView_tztExtern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIView_tztExtern.h"; sourceTree = "<group>"; };
+		303447B41BF34EFB006AC3C6 /* UIView+UIView_tztExtern.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIView_tztExtern.m"; sourceTree = "<group>"; };
+		9C09A0EB1A7603DE00C70526 /* TZTSegmentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTSegmentView.h; sourceTree = "<group>"; };
+		9C09A0EC1A7603DE00C70526 /* TZTSegmentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTSegmentView.m; sourceTree = "<group>"; };
+		9C09A0EF1A76041E00C70526 /* TZTSegSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTSegSectionView.h; sourceTree = "<group>"; };
+		9C09A0F01A76041E00C70526 /* TZTSegSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTSegSectionView.m; sourceTree = "<group>"; };
+		9C205FCC1A7785800008588F /* tztTabView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztTabView.h; sourceTree = "<group>"; };
+		9C205FCD1A7785800008588F /* tztTabView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztTabView.m; sourceTree = "<group>"; };
+		9C3A284F1A6F332700DC70AB /* tztUINewTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUINewTitleView.h; sourceTree = "<group>"; };
+		9C3A28501A6F332700DC70AB /* tztUINewTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUINewTitleView.m; sourceTree = "<group>"; };
+		9C3A28511A6F332700DC70AB /* tztUISegment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUISegment.h; sourceTree = "<group>"; };
+		9C3A28521A6F332700DC70AB /* tztUISegment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUISegment.m; sourceTree = "<group>"; };
+		9C3A28621A6F3FD400DC70AB /* tztUIFunctionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUIFunctionView.h; sourceTree = "<group>"; };
+		9C3A28631A6F3FD400DC70AB /* tztUIFunctionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUIFunctionView.m; sourceTree = "<group>"; };
+		9C3A29281A6F7DF500DC70AB /* TZTTagView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTTagView.h; sourceTree = "<group>"; };
+		9C3A29291A6F7DF500DC70AB /* TZTTagView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTTagView.m; sourceTree = "<group>"; };
+		9C3EF1F51A6E42E000878638 /* TZTUIToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTUIToolBarView.h; sourceTree = "<group>"; };
+		9C3EF1F61A6E42E000878638 /* TZTUIToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTUIToolBarView.m; sourceTree = "<group>"; };
+		9C3EF1F91A6E443D00878638 /* tztUITradeToolBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUITradeToolBarView.h; sourceTree = "<group>"; };
+		9C3EF1FA1A6E443D00878638 /* tztUITradeToolBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUITradeToolBarView.m; sourceTree = "<group>"; };
+		9C3EF1FD1A6E44F300878638 /* TZTUIBaseTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTUIBaseTitleView.h; sourceTree = "<group>"; };
+		9C3EF1FE1A6E44F300878638 /* TZTUIBaseTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTUIBaseTitleView.m; sourceTree = "<group>"; };
+		9C3EF1FF1A6E44F300878638 /* TZTUIBaseTitleViewOld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTUIBaseTitleViewOld.h; sourceTree = "<group>"; };
+		9C3EF2001A6E44F300878638 /* TZTUIBaseTitleViewOld.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTUIBaseTitleViewOld.m; sourceTree = "<group>"; };
+		9C8624901A6CDAE30073EDC5 /* tztControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = tztControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8624941A6CDAE30073EDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8624951A6CDAE30073EDC5 /* tztControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tztControl.h; sourceTree = "<group>"; };
+		9C8624AD1A6CDBC10073EDC5 /* CUCustomSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CUCustomSwitch.h; sourceTree = "<group>"; };
+		9C8624AE1A6CDBC10073EDC5 /* CUCustomSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CUCustomSwitch.m; sourceTree = "<group>"; };
+		9C8624B11A6CDBC10073EDC5 /* TZTCMyComboxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTCMyComboxView.h; sourceTree = "<group>"; };
+		9C8624B21A6CDBC10073EDC5 /* TZTCMyComboxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTCMyComboxView.m; sourceTree = "<group>"; };
+		9C8624B31A6CDBC10073EDC5 /* tztGroupRadioView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztGroupRadioView.h; sourceTree = "<group>"; };
+		9C8624B41A6CDBC10073EDC5 /* tztGroupRadioView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztGroupRadioView.m; sourceTree = "<group>"; };
+		9C8624B51A6CDBC10073EDC5 /* tztKeyboardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztKeyboardView.h; sourceTree = "<group>"; };
+		9C8624B61A6CDBC10073EDC5 /* tztKeyboardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztKeyboardView.m; sourceTree = "<group>"; };
+		9C8624B71A6CDBC10073EDC5 /* tztMutilScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztMutilScrollView.h; sourceTree = "<group>"; };
+		9C8624B81A6CDBC10073EDC5 /* tztMutilScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztMutilScrollView.m; sourceTree = "<group>"; };
+		9C8624B91A6CDBC10073EDC5 /* tztPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztPageControl.h; sourceTree = "<group>"; };
+		9C8624BA1A6CDBC10073EDC5 /* tztPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztPageControl.m; sourceTree = "<group>"; };
+		9C8624BB1A6CDBC10073EDC5 /* TZTPageInfoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTPageInfoItem.h; sourceTree = "<group>"; };
+		9C8624BC1A6CDBC10073EDC5 /* TZTPageInfoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTPageInfoItem.m; sourceTree = "<group>"; };
+		9C8624BD1A6CDBC10073EDC5 /* TZTSevenSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTSevenSwitch.h; sourceTree = "<group>"; };
+		9C8624BE1A6CDBC10073EDC5 /* TZTSevenSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTSevenSwitch.m; sourceTree = "<group>"; };
+		9C8624BF1A6CDBC10073EDC5 /* TZTTabBarProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTTabBarProfile.h; sourceTree = "<group>"; };
+		9C8624C01A6CDBC10073EDC5 /* TZTTabBarProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTTabBarProfile.m; sourceTree = "<group>"; };
+		9C8624D81A6CDBC10073EDC5 /* tztUIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUIAlertView.h; sourceTree = "<group>"; };
+		9C8624D91A6CDBC10073EDC5 /* tztUIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUIAlertView.m; sourceTree = "<group>"; };
+		9C8624DA1A6CDBC10073EDC5 /* tztUIBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUIBarButtonItem.h; sourceTree = "<group>"; };
+		9C8624DB1A6CDBC10073EDC5 /* tztUIBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUIBarButtonItem.m; sourceTree = "<group>"; };
+		9C8624DC1A6CDBC10073EDC5 /* tztUIBaseControlsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUIBaseControlsView.h; sourceTree = "<group>"; };
+		9C8624DD1A6CDBC10073EDC5 /* tztUIBaseControlsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUIBaseControlsView.m; sourceTree = "<group>"; };
+		9C8624DE1A6CDBC10073EDC5 /* tztUIBaseViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUIBaseViewDelegate.h; sourceTree = "<group>"; };
+		9C8624DF1A6CDBC10073EDC5 /* tztUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUIButton.h; sourceTree = "<group>"; };
+		9C8624E01A6CDBC10073EDC5 /* tztUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUIButton.m; sourceTree = "<group>"; };
+		9C8624E11A6CDBC10073EDC5 /* tztUICheckButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUICheckButton.h; sourceTree = "<group>"; };
+		9C8624E21A6CDBC10073EDC5 /* tztUICheckButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUICheckButton.m; sourceTree = "<group>"; };
+		9C8624E31A6CDBC10073EDC5 /* tztUIControlsInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUIControlsInfo.h; sourceTree = "<group>"; };
+		9C8624E41A6CDBC10073EDC5 /* tztUIControlsProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUIControlsProperty.h; sourceTree = "<group>"; };
+		9C8624E51A6CDBC10073EDC5 /* tztUIControlsProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUIControlsProperty.m; sourceTree = "<group>"; };
+		9C8624E61A6CDBC10073EDC5 /* tztUIDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUIDatePicker.h; sourceTree = "<group>"; };
+		9C8624E71A6CDBC10073EDC5 /* tztUIDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUIDatePicker.m; sourceTree = "<group>"; };
+		9C8624EA1A6CDBC10073EDC5 /* tztUIDroplistView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUIDroplistView.h; sourceTree = "<group>"; };
+		9C8624EB1A6CDBC10073EDC5 /* tztUIDroplistView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUIDroplistView.m; sourceTree = "<group>"; };
+		9C8624EC1A6CDBC10073EDC5 /* tztUILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUILabel.h; sourceTree = "<group>"; };
+		9C8624ED1A6CDBC10073EDC5 /* tztUILabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUILabel.m; sourceTree = "<group>"; };
+		9C8624EE1A6CDBC10073EDC5 /* tztUINineGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUINineGridView.h; sourceTree = "<group>"; };
+		9C8624EF1A6CDBC10073EDC5 /* tztUINineGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUINineGridView.m; sourceTree = "<group>"; };
+		9C8624F01A6CDBC10073EDC5 /* tztUIProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUIProgressView.h; sourceTree = "<group>"; };
+		9C8624F11A6CDBC10073EDC5 /* tztUIProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUIProgressView.m; sourceTree = "<group>"; };
+		9C8624F21A6CDBC10073EDC5 /* tztUISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUISwitch.h; sourceTree = "<group>"; };
+		9C8624F31A6CDBC10073EDC5 /* tztUISwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUISwitch.m; sourceTree = "<group>"; };
+		9C8624F41A6CDBC10073EDC5 /* TZTUITabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTUITabBarItem.h; sourceTree = "<group>"; };
+		9C8624F51A6CDBC10073EDC5 /* TZTUITabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTUITabBarItem.m; sourceTree = "<group>"; };
+		9C8624F61A6CDBC10073EDC5 /* tztUITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUITextField.h; sourceTree = "<group>"; };
+		9C8624F71A6CDBC10073EDC5 /* tztUITextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUITextField.m; sourceTree = "<group>"; };
+		9C8624F81A6CDBC10073EDC5 /* tztUITextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUITextView.h; sourceTree = "<group>"; };
+		9C8624F91A6CDBC10073EDC5 /* tztUITextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUITextView.m; sourceTree = "<group>"; };
+		9C8624FA1A6CDBC10073EDC5 /* tztUIVCBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUIVCBaseView.h; sourceTree = "<group>"; };
+		9C8624FB1A6CDBC10073EDC5 /* tztUIVCBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUIVCBaseView.m; sourceTree = "<group>"; };
+		9C8624FC1A6CDBC10073EDC5 /* WZGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZGuideViewController.h; sourceTree = "<group>"; };
+		9C8624FD1A6CDBC10073EDC5 /* WZGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZGuideViewController.m; sourceTree = "<group>"; };
+		9C86254F1A6CDC080073EDC5 /* tztControls.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tztControls.pch; sourceTree = "<group>"; };
+		9C8625501A6CDC860073EDC5 /* TZTOutLineData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTOutLineData.h; sourceTree = "<group>"; };
+		9C8625511A6CDC860073EDC5 /* TZTOutLineData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTOutLineData.m; sourceTree = "<group>"; };
+		9C8625541A6CDDE10073EDC5 /* UIColor_TZTColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIColor_TZTColor.h; sourceTree = "<group>"; };
+		9C8625551A6CDDE10073EDC5 /* UIColor_TZTColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIColor_TZTColor.m; sourceTree = "<group>"; };
+		9C86255F1A6CF5310073EDC5 /* TZTSystermConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTSystermConfig.h; sourceTree = "<group>"; };
+		9C8625601A6CF5310073EDC5 /* TZTSystermConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTSystermConfig.m; sourceTree = "<group>"; };
+		9C8625671A6CF5FD0073EDC5 /* TZTUIBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTUIBaseView.h; sourceTree = "<group>"; };
+		9C8625681A6CF5FD0073EDC5 /* TZTUIBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTUIBaseView.m; sourceTree = "<group>"; };
+		9C86256D1A6CF6430073EDC5 /* tztStockInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztStockInfo.h; sourceTree = "<group>"; };
+		9C86256E1A6CF6430073EDC5 /* tztStockInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztStockInfo.m; sourceTree = "<group>"; };
+		9C8625721A6CF6AD0073EDC5 /* TZTGridDataObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTGridDataObj.h; sourceTree = "<group>"; };
+		9C8625731A6CF6AD0073EDC5 /* TZTGridDataObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTGridDataObj.m; sourceTree = "<group>"; };
+		9C8625741A6CF6AD0073EDC5 /* TZTUIBaseGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTUIBaseGridView.h; sourceTree = "<group>"; };
+		9C8625751A6CF6AD0073EDC5 /* TZTUIBaseGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTUIBaseGridView.m; sourceTree = "<group>"; };
+		9C8625761A6CF6AD0073EDC5 /* TZTUIHQINCenterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTUIHQINCenterView.h; sourceTree = "<group>"; };
+		9C8625771A6CF6AD0073EDC5 /* TZTUIHQINCenterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTUIHQINCenterView.m; sourceTree = "<group>"; };
+		9C8625781A6CF6AD0073EDC5 /* TZTUIHQINLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTUIHQINLeftView.h; sourceTree = "<group>"; };
+		9C8625791A6CF6AD0073EDC5 /* TZTUIHQINLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTUIHQINLeftView.m; sourceTree = "<group>"; };
+		9C86257A1A6CF6AD0073EDC5 /* TZTUIHQINTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTUIHQINTopView.h; sourceTree = "<group>"; };
+		9C86257B1A6CF6AD0073EDC5 /* TZTUIHQINTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTUIHQINTopView.m; sourceTree = "<group>"; };
+		9C86257C1A6CF6AD0073EDC5 /* TZTUIImageDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTUIImageDefine.h; sourceTree = "<group>"; };
+		9C86257D1A6CF6AD0073EDC5 /* TZTUIReportGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTUIReportGridView.h; sourceTree = "<group>"; };
+		9C86257E1A6CF6AD0073EDC5 /* TZTUIReportGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTUIReportGridView.m; sourceTree = "<group>"; };
+		9C8625801A6CF6AD0073EDC5 /* tztUITableListCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUITableListCellView.h; sourceTree = "<group>"; };
+		9C8625811A6CF6AD0073EDC5 /* tztUITableListCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUITableListCellView.m; sourceTree = "<group>"; };
+		9C8625821A6CF6AD0073EDC5 /* tztUITableListInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUITableListInfo.h; sourceTree = "<group>"; };
+		9C8625831A6CF6AD0073EDC5 /* tztUITableListInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUITableListInfo.m; sourceTree = "<group>"; };
+		9C8625841A6CF6AD0073EDC5 /* tztUITableListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUITableListView.h; sourceTree = "<group>"; };
+		9C8625851A6CF6AD0073EDC5 /* tztUITableListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUITableListView.m; sourceTree = "<group>"; };
+		9C8625A51A6CF70A0073EDC5 /* tztToolbarMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztToolbarMoreView.h; sourceTree = "<group>"; };
+		9C8625A61A6CF70A0073EDC5 /* tztToolbarMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztToolbarMoreView.m; sourceTree = "<group>"; };
+		9C8625AA1A6D01360073EDC5 /* tztStockType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztStockType.h; sourceTree = "<group>"; };
+		9C8625AC1A6D035B0073EDC5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		9C8625AE1A6D03600073EDC5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		9CAABCE01A91E3F10098AF7A /* tztbase.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = tztbase.xcodeproj; path = ../../../../../work/MobileBase/tztbase/tztbase.xcodeproj; sourceTree = "<group>"; };
+		9CECC82C1A81B5AA0040F017 /* tztIdentifyCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztIdentifyCodeView.h; sourceTree = "<group>"; };
+		9CECC82D1A81B5AA0040F017 /* tztIdentifyCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztIdentifyCodeView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C86248C1A6CDAE30073EDC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8625AF1A6D03600073EDC5 /* libsqlite3.dylib in Frameworks */,
+				9C8625AD1A6D035B0073EDC5 /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C8624861A6CDAE30073EDC5 = {
+			isa = PBXGroup;
+			children = (
+				303447B31BF34EFB006AC3C6 /* UIView+UIView_tztExtern.h */,
+				303447B41BF34EFB006AC3C6 /* UIView+UIView_tztExtern.m */,
+				04133D881AB9667D00B1FF15 /* tztUserSaveDataObj.h */,
+				04133D891AB9667D00B1FF15 /* tztUserSaveDataObj.m */,
+				9CAABCE01A91E3F10098AF7A /* tztbase.xcodeproj */,
+				9C8625631A6CF5FD0073EDC5 /* baseVC */,
+				9C8625661A6CF5FD0073EDC5 /* baseView */,
+				9C8625AE1A6D03600073EDC5 /* libsqlite3.dylib */,
+				9C8625AC1A6D035B0073EDC5 /* libz.dylib */,
+				9C8624911A6CDAE30073EDC5 /* Products */,
+				9C8624921A6CDAE30073EDC5 /* tztControl */,
+				9C8624AC1A6CDBC10073EDC5 /* tztControls */,
+				9C8625AA1A6D01360073EDC5 /* tztStockType.h */,
+				9C8625711A6CF6AD0073EDC5 /* tztTableGrid */,
+				9C86257F1A6CF6AD0073EDC5 /* tzttablelist */,
+				9C8625541A6CDDE10073EDC5 /* UIColor_TZTColor.h */,
+				9C8625551A6CDDE10073EDC5 /* UIColor_TZTColor.m */,
+			);
+			sourceTree = "<group>";
+		};
+		9C8624911A6CDAE30073EDC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C8624901A6CDAE30073EDC5 /* tztControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C8624921A6CDAE30073EDC5 /* tztControl */ = {
+			isa = PBXGroup;
+			children = (
+				9C8624951A6CDAE30073EDC5 /* tztControl.h */,
+				9C8624931A6CDAE30073EDC5 /* Supporting Files */,
+			);
+			path = tztControl;
+			sourceTree = "<group>";
+		};
+		9C8624931A6CDAE30073EDC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C8624941A6CDAE30073EDC5 /* Info.plist */,
+				9C86254F1A6CDC080073EDC5 /* tztControls.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9C8624AC1A6CDBC10073EDC5 /* tztControls */ = {
+			isa = PBXGroup;
+			children = (
+				303447A21BF348BF006AC3C6 /* tztUIHelperImageView.h */,
+				303447A31BF348BF006AC3C6 /* tztUIHelperImageView.m */,
+				3034479E1BF347B6006AC3C6 /* tztMessageLabel.h */,
+				3034479F1BF347B6006AC3C6 /* tztMessageLabel.m */,
+				3034479A1BF34642006AC3C6 /* tztStatusBar.h */,
+				3034479B1BF34642006AC3C6 /* tztStatusBar.m */,
+				303447961BF34590006AC3C6 /* tztHTTPWebView.h */,
+				303447971BF34590006AC3C6 /* tztHTTPWebView.m */,
+				303447921BF344E9006AC3C6 /* tztPieView.h */,
+				303447931BF344E9006AC3C6 /* tztPieView.m */,
+				303447891BF33D73006AC3C6 /* TZTUIMessageBox.h */,
+				3034478A1BF33D73006AC3C6 /* TZTUIMessageBox.m */,
+				9C205FCC1A7785800008588F /* tztTabView.h */,
+				9C205FCD1A7785800008588F /* tztTabView.m */,
+				9C8624AD1A6CDBC10073EDC5 /* CUCustomSwitch.h */,
+				9C8624AE1A6CDBC10073EDC5 /* CUCustomSwitch.m */,
+				9C8624B11A6CDBC10073EDC5 /* TZTCMyComboxView.h */,
+				9C8624B21A6CDBC10073EDC5 /* TZTCMyComboxView.m */,
+				9C8624B31A6CDBC10073EDC5 /* tztGroupRadioView.h */,
+				9C8624B41A6CDBC10073EDC5 /* tztGroupRadioView.m */,
+				9C8624B51A6CDBC10073EDC5 /* tztKeyboardView.h */,
+				9C8624B61A6CDBC10073EDC5 /* tztKeyboardView.m */,
+				9C8624B71A6CDBC10073EDC5 /* tztMutilScrollView.h */,
+				9C8624B81A6CDBC10073EDC5 /* tztMutilScrollView.m */,
+				9C8625501A6CDC860073EDC5 /* TZTOutLineData.h */,
+				9C8625511A6CDC860073EDC5 /* TZTOutLineData.m */,
+				9C8624B91A6CDBC10073EDC5 /* tztPageControl.h */,
+				9C8624BA1A6CDBC10073EDC5 /* tztPageControl.m */,
+				9C8624BB1A6CDBC10073EDC5 /* TZTPageInfoItem.h */,
+				9C8624BC1A6CDBC10073EDC5 /* TZTPageInfoItem.m */,
+				9C09A0EB1A7603DE00C70526 /* TZTSegmentView.h */,
+				9C09A0EC1A7603DE00C70526 /* TZTSegmentView.m */,
+				9C09A0EF1A76041E00C70526 /* TZTSegSectionView.h */,
+				9C09A0F01A76041E00C70526 /* TZTSegSectionView.m */,
+				9C8624BD1A6CDBC10073EDC5 /* TZTSevenSwitch.h */,
+				9C8624BE1A6CDBC10073EDC5 /* TZTSevenSwitch.m */,
+				9C86255F1A6CF5310073EDC5 /* TZTSystermConfig.h */,
+				9C8625601A6CF5310073EDC5 /* TZTSystermConfig.m */,
+				9C8624BF1A6CDBC10073EDC5 /* TZTTabBarProfile.h */,
+				9C8624C01A6CDBC10073EDC5 /* TZTTabBarProfile.m */,
+				9C3A29281A6F7DF500DC70AB /* TZTTagView.h */,
+				9C3A29291A6F7DF500DC70AB /* TZTTagView.m */,
+				9C8625A51A6CF70A0073EDC5 /* tztToolbarMoreView.h */,
+				9C8625A61A6CF70A0073EDC5 /* tztToolbarMoreView.m */,
+				9C8624D81A6CDBC10073EDC5 /* tztUIAlertView.h */,
+				9C8624D91A6CDBC10073EDC5 /* tztUIAlertView.m */,
+				9C8624DA1A6CDBC10073EDC5 /* tztUIBarButtonItem.h */,
+				9C8624DB1A6CDBC10073EDC5 /* tztUIBarButtonItem.m */,
+				9C8624DC1A6CDBC10073EDC5 /* tztUIBaseControlsView.h */,
+				9C8624DD1A6CDBC10073EDC5 /* tztUIBaseControlsView.m */,
+				9C3EF1FD1A6E44F300878638 /* TZTUIBaseTitleView.h */,
+				9C3EF1FE1A6E44F300878638 /* TZTUIBaseTitleView.m */,
+				9C3EF1FF1A6E44F300878638 /* TZTUIBaseTitleViewOld.h */,
+				9C3EF2001A6E44F300878638 /* TZTUIBaseTitleViewOld.m */,
+				9C8624DE1A6CDBC10073EDC5 /* tztUIBaseViewDelegate.h */,
+				9C8624DF1A6CDBC10073EDC5 /* tztUIButton.h */,
+				9C8624E01A6CDBC10073EDC5 /* tztUIButton.m */,
+				9C8624E11A6CDBC10073EDC5 /* tztUICheckButton.h */,
+				9C8624E21A6CDBC10073EDC5 /* tztUICheckButton.m */,
+				9C8624E31A6CDBC10073EDC5 /* tztUIControlsInfo.h */,
+				9C8624E41A6CDBC10073EDC5 /* tztUIControlsProperty.h */,
+				9C8624E51A6CDBC10073EDC5 /* tztUIControlsProperty.m */,
+				9C8624E61A6CDBC10073EDC5 /* tztUIDatePicker.h */,
+				9C8624E71A6CDBC10073EDC5 /* tztUIDatePicker.m */,
+				9C8624EA1A6CDBC10073EDC5 /* tztUIDroplistView.h */,
+				9C8624EB1A6CDBC10073EDC5 /* tztUIDroplistView.m */,
+				9C3A28621A6F3FD400DC70AB /* tztUIFunctionView.h */,
+				9C3A28631A6F3FD400DC70AB /* tztUIFunctionView.m */,
+				9C8624EC1A6CDBC10073EDC5 /* tztUILabel.h */,
+				9C8624ED1A6CDBC10073EDC5 /* tztUILabel.m */,
+				9C3A284F1A6F332700DC70AB /* tztUINewTitleView.h */,
+				9C3A28501A6F332700DC70AB /* tztUINewTitleView.m */,
+				9C8624EE1A6CDBC10073EDC5 /* tztUINineGridView.h */,
+				9C8624EF1A6CDBC10073EDC5 /* tztUINineGridView.m */,
+				9C8624F01A6CDBC10073EDC5 /* tztUIProgressView.h */,
+				9C8624F11A6CDBC10073EDC5 /* tztUIProgressView.m */,
+				9C3A28511A6F332700DC70AB /* tztUISegment.h */,
+				9C3A28521A6F332700DC70AB /* tztUISegment.m */,
+				9C8624F21A6CDBC10073EDC5 /* tztUISwitch.h */,
+				9C8624F31A6CDBC10073EDC5 /* tztUISwitch.m */,
+				9C8624F41A6CDBC10073EDC5 /* TZTUITabBarItem.h */,
+				9C8624F51A6CDBC10073EDC5 /* TZTUITabBarItem.m */,
+				9C8624F61A6CDBC10073EDC5 /* tztUITextField.h */,
+				9C8624F71A6CDBC10073EDC5 /* tztUITextField.m */,
+				9C8624F81A6CDBC10073EDC5 /* tztUITextView.h */,
+				9C8624F91A6CDBC10073EDC5 /* tztUITextView.m */,
+				9C3EF1F51A6E42E000878638 /* TZTUIToolBarView.h */,
+				9C3EF1F61A6E42E000878638 /* TZTUIToolBarView.m */,
+				9C3EF1F91A6E443D00878638 /* tztUITradeToolBarView.h */,
+				9C3EF1FA1A6E443D00878638 /* tztUITradeToolBarView.m */,
+				9C8624FA1A6CDBC10073EDC5 /* tztUIVCBaseView.h */,
+				9C8624FB1A6CDBC10073EDC5 /* tztUIVCBaseView.m */,
+				9C8624FC1A6CDBC10073EDC5 /* WZGuideViewController.h */,
+				9C8624FD1A6CDBC10073EDC5 /* WZGuideViewController.m */,
+				9CECC82C1A81B5AA0040F017 /* tztIdentifyCodeView.h */,
+				9CECC82D1A81B5AA0040F017 /* tztIdentifyCodeView.m */,
+			);
+			path = tztControls;
+			sourceTree = "<group>";
+		};
+		9C8625631A6CF5FD0073EDC5 /* baseVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = baseVC;
+			sourceTree = "<group>";
+		};
+		9C8625661A6CF5FD0073EDC5 /* baseView */ = {
+			isa = PBXGroup;
+			children = (
+				9C86256D1A6CF6430073EDC5 /* tztStockInfo.h */,
+				9C86256E1A6CF6430073EDC5 /* tztStockInfo.m */,
+				9C8625671A6CF5FD0073EDC5 /* TZTUIBaseView.h */,
+				9C8625681A6CF5FD0073EDC5 /* TZTUIBaseView.m */,
+			);
+			path = baseView;
+			sourceTree = "<group>";
+		};
+		9C8625711A6CF6AD0073EDC5 /* tztTableGrid */ = {
+			isa = PBXGroup;
+			children = (
+				9C8625721A6CF6AD0073EDC5 /* TZTGridDataObj.h */,
+				9C8625731A6CF6AD0073EDC5 /* TZTGridDataObj.m */,
+				9C8625741A6CF6AD0073EDC5 /* TZTUIBaseGridView.h */,
+				9C8625751A6CF6AD0073EDC5 /* TZTUIBaseGridView.m */,
+				9C8625761A6CF6AD0073EDC5 /* TZTUIHQINCenterView.h */,
+				9C8625771A6CF6AD0073EDC5 /* TZTUIHQINCenterView.m */,
+				9C8625781A6CF6AD0073EDC5 /* TZTUIHQINLeftView.h */,
+				9C8625791A6CF6AD0073EDC5 /* TZTUIHQINLeftView.m */,
+				9C86257A1A6CF6AD0073EDC5 /* TZTUIHQINTopView.h */,
+				9C86257B1A6CF6AD0073EDC5 /* TZTUIHQINTopView.m */,
+				9C86257C1A6CF6AD0073EDC5 /* TZTUIImageDefine.h */,
+				9C86257D1A6CF6AD0073EDC5 /* TZTUIReportGridView.h */,
+				9C86257E1A6CF6AD0073EDC5 /* TZTUIReportGridView.m */,
+			);
+			path = tztTableGrid;
+			sourceTree = "<group>";
+		};
+		9C86257F1A6CF6AD0073EDC5 /* tzttablelist */ = {
+			isa = PBXGroup;
+			children = (
+				9C8625801A6CF6AD0073EDC5 /* tztUITableListCellView.h */,
+				9C8625811A6CF6AD0073EDC5 /* tztUITableListCellView.m */,
+				9C8625821A6CF6AD0073EDC5 /* tztUITableListInfo.h */,
+				9C8625831A6CF6AD0073EDC5 /* tztUITableListInfo.m */,
+				9C8625841A6CF6AD0073EDC5 /* tztUITableListView.h */,
+				9C8625851A6CF6AD0073EDC5 /* tztUITableListView.m */,
+			);
+			path = tzttablelist;
+			sourceTree = "<group>";
+		};
+		9CAABCE11A91E3F10098AF7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CAABCE61A91E3F10098AF7A /* tztMobileBase.framework */,
+				9CAABCE81A91E3F10098AF7A /* tztMacOSBase.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9C86248D1A6CDAE30073EDC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8625041A6CDBC10073EDC5 /* tztGroupRadioView.h in Headers */,
+				9C09A0F11A76041E00C70526 /* TZTSegSectionView.h in Headers */,
+				9C8625301A6CDBC10073EDC5 /* tztUICheckButton.h in Headers */,
+				9C8625351A6CDBC10073EDC5 /* tztUIDatePicker.h in Headers */,
+				9CECC82E1A81B5AA0040F017 /* tztIdentifyCodeView.h in Headers */,
+				9C8625101A6CDBC10073EDC5 /* TZTTabBarProfile.h in Headers */,
+				9C8625061A6CDBC10073EDC5 /* tztKeyboardView.h in Headers */,
+				9C86256F1A6CF6430073EDC5 /* tztStockInfo.h in Headers */,
+				9C8625A71A6CF70A0073EDC5 /* tztToolbarMoreView.h in Headers */,
+				9C8625611A6CF5310073EDC5 /* TZTSystermConfig.h in Headers */,
+				9C8624961A6CDAE30073EDC5 /* tztControl.h in Headers */,
+				9C8625911A6CF6AD0073EDC5 /* TZTUIReportGridView.h in Headers */,
+				9C86254B1A6CDBC10073EDC5 /* WZGuideViewController.h in Headers */,
+				9C8625491A6CDBC10073EDC5 /* tztUIVCBaseView.h in Headers */,
+				9C86258E1A6CF6AD0073EDC5 /* TZTUIHQINTopView.h in Headers */,
+				9C86252E1A6CDBC10073EDC5 /* tztUIButton.h in Headers */,
+				9C8625431A6CDBC10073EDC5 /* TZTUITabBarItem.h in Headers */,
+				9C8625971A6CF6AD0073EDC5 /* tztUITableListView.h in Headers */,
+				9C8625471A6CDBC10073EDC5 /* tztUITextView.h in Headers */,
+				9C86252D1A6CDBC10073EDC5 /* tztUIBaseViewDelegate.h in Headers */,
+				9C8625291A6CDBC10073EDC5 /* tztUIBarButtonItem.h in Headers */,
+				9C86258A1A6CF6AD0073EDC5 /* TZTUIHQINCenterView.h in Headers */,
+				9C8625951A6CF6AD0073EDC5 /* tztUITableListInfo.h in Headers */,
+				9C8625321A6CDBC10073EDC5 /* tztUIControlsInfo.h in Headers */,
+				9C86256B1A6CF5FD0073EDC5 /* TZTUIBaseView.h in Headers */,
+				9C86250E1A6CDBC10073EDC5 /* TZTSevenSwitch.h in Headers */,
+				9C8625901A6CF6AD0073EDC5 /* TZTUIImageDefine.h in Headers */,
+				9C8625931A6CF6AD0073EDC5 /* tztUITableListCellView.h in Headers */,
+				9C8624FE1A6CDBC10073EDC5 /* CUCustomSwitch.h in Headers */,
+				9C8625081A6CDBC10073EDC5 /* tztMutilScrollView.h in Headers */,
+				9C86250C1A6CDBC10073EDC5 /* TZTPageInfoItem.h in Headers */,
+				9C8625271A6CDBC10073EDC5 /* tztUIAlertView.h in Headers */,
+				9C8625561A6CDDE10073EDC5 /* UIColor_TZTColor.h in Headers */,
+				9C86253D1A6CDBC10073EDC5 /* tztUINineGridView.h in Headers */,
+				9C8625411A6CDBC10073EDC5 /* tztUISwitch.h in Headers */,
+				9C86252B1A6CDBC10073EDC5 /* tztUIBaseControlsView.h in Headers */,
+				9C8625331A6CDBC10073EDC5 /* tztUIControlsProperty.h in Headers */,
+				9C8625521A6CDC860073EDC5 /* TZTOutLineData.h in Headers */,
+				9C86258C1A6CF6AD0073EDC5 /* TZTUIHQINLeftView.h in Headers */,
+				9C8625021A6CDBC10073EDC5 /* TZTCMyComboxView.h in Headers */,
+				9C8625861A6CF6AD0073EDC5 /* TZTGridDataObj.h in Headers */,
+				9C86253B1A6CDBC10073EDC5 /* tztUILabel.h in Headers */,
+				9C86250A1A6CDBC10073EDC5 /* tztPageControl.h in Headers */,
+				9C86253F1A6CDBC10073EDC5 /* tztUIProgressView.h in Headers */,
+				9CB414551A6D067D00613BC0 /* tztStockType.h in Headers */,
+				9C3EF2031A6E44F300878638 /* TZTUIBaseTitleViewOld.h in Headers */,
+				9C3EF2011A6E44F300878638 /* TZTUIBaseTitleView.h in Headers */,
+				9C09A0ED1A7603DE00C70526 /* TZTSegmentView.h in Headers */,
+				9C3EF1F71A6E42E000878638 /* TZTUIToolBarView.h in Headers */,
+				9C3A28531A6F332700DC70AB /* tztUINewTitleView.h in Headers */,
+				9C205FCE1A7785800008588F /* tztTabView.h in Headers */,
+				9C3A28551A6F332700DC70AB /* tztUISegment.h in Headers */,
+				9C3EF1FB1A6E443D00878638 /* tztUITradeToolBarView.h in Headers */,
+				9C3A28641A6F3FD400DC70AB /* tztUIFunctionView.h in Headers */,
+				9C3A292A1A6F7DF500DC70AB /* TZTTagView.h in Headers */,
+				9C8625881A6CF6AD0073EDC5 /* TZTUIBaseGridView.h in Headers */,
+				3034478B1BF33D73006AC3C6 /* TZTUIMessageBox.h in Headers */,
+				9C3EF15F1A6E321500878638 /* tztControls.pch in Headers */,
+				303447981BF34590006AC3C6 /* tztHTTPWebView.h in Headers */,
+				3034479C1BF34642006AC3C6 /* tztStatusBar.h in Headers */,
+				303447A01BF347B6006AC3C6 /* tztMessageLabel.h in Headers */,
+				303447B51BF34EFB006AC3C6 /* UIView+UIView_tztExtern.h in Headers */,
+				303447A41BF348BF006AC3C6 /* tztUIHelperImageView.h in Headers */,
+				303447941BF344E9006AC3C6 /* tztPieView.h in Headers */,
+				04133D8A1AB9667D00B1FF15 /* tztUserSaveDataObj.h in Headers */,
+				9C8625391A6CDBC10073EDC5 /* tztUIDroplistView.h in Headers */,
+				9C8625451A6CDBC10073EDC5 /* tztUITextField.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9C86248F1A6CDAE30073EDC5 /* tztControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8624A61A6CDAE30073EDC5 /* Build configuration list for PBXNativeTarget "tztControl" */;
+			buildPhases = (
+				9C86248B1A6CDAE30073EDC5 /* Sources */,
+				9C86248C1A6CDAE30073EDC5 /* Frameworks */,
+				9C86248D1A6CDAE30073EDC5 /* Headers */,
+				9C86248E1A6CDAE30073EDC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CAABCEA1A91E3F60098AF7A /* PBXTargetDependency */,
+			);
+			name = tztControl;
+			productName = tztControl;
+			productReference = 9C8624901A6CDAE30073EDC5 /* tztControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C8624871A6CDAE30073EDC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = tzt;
+				TargetAttributes = {
+					9C86248F1A6CDAE30073EDC5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					9CB414C71A6D0C9700613BC0 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 9C86248A1A6CDAE30073EDC5 /* Build configuration list for PBXProject "tztControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C8624861A6CDAE30073EDC5;
+			productRefGroup = 9C8624911A6CDAE30073EDC5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9CAABCE11A91E3F10098AF7A /* Products */;
+					ProjectRef = 9CAABCE01A91E3F10098AF7A /* tztbase.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9C86248F1A6CDAE30073EDC5 /* tztControl */,
+				9CB414C71A6D0C9700613BC0 /* tztControlDoc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9CAABCE61A91E3F10098AF7A /* tztMobileBase.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = tztMobileBase.framework;
+			remoteRef = 9CAABCE51A91E3F10098AF7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9CAABCE81A91E3F10098AF7A /* tztMacOSBase.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = tztMacOSBase.framework;
+			remoteRef = 9CAABCE71A91E3F10098AF7A /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C86248E1A6CDAE30073EDC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9CB414CB1A6D0C9D00613BC0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#appledoc Xcode script\n# Start constants\ncompany=\"tzt\";\ncompanyID=\"com.tzt\";\ncompanyURL=\"http://www.tzt.cn\";\ntarget=\"iphoneos\";\n#target=\"macosx\";\n#outputPath=\"~/help\";\noutputPath=\"${PROJECT_DIR}/doc\"\n# End constants\n\n/usr/bin/appledoc \\\n--project-name \"${PROJECT_NAME}\" \\\n--project-company \"${company}\" \\\n--company-id \"${companyID}\" \\\n--docset-atom-filename \"${company}.atom\" \\\n--docset-feed-url \"${companyURL}/${company}/%DOCSETATOMFILENAME\" \\\n--docset-package-url \"${companyURL}/${company}/%DOCSETPACKAGEFILENAME\" \\\n--docset-fallback-url \"${companyURL}/${company}\" \\\n--output \"${outputPath}\" \\\n--publish-docset \\\n--docset-platform-family \"${target}\" \\\n--logformat xcode \\\n--keep-intermediate-files \\\n--no-repeat-first-par \\\n--no-warn-invalid-crossref \\\n--exit-threshold 2 \\\n\"${PROJECT_DIR}\"";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C86248B1A6CDAE30073EDC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8624FF1A6CDBC10073EDC5 /* CUCustomSwitch.m in Sources */,
+				9C86253E1A6CDBC10073EDC5 /* tztUINineGridView.m in Sources */,
+				9C8625441A6CDBC10073EDC5 /* TZTUITabBarItem.m in Sources */,
+				9C86250B1A6CDBC10073EDC5 /* tztPageControl.m in Sources */,
+				9C8625701A6CF6430073EDC5 /* tztStockInfo.m in Sources */,
+				303447991BF34590006AC3C6 /* tztHTTPWebView.m in Sources */,
+				9C8625481A6CDBC10073EDC5 /* tztUITextView.m in Sources */,
+				9C8625311A6CDBC10073EDC5 /* tztUICheckButton.m in Sources */,
+				303447B61BF34EFB006AC3C6 /* UIView+UIView_tztExtern.m in Sources */,
+				3034479D1BF34642006AC3C6 /* tztStatusBar.m in Sources */,
+				9C8625461A6CDBC10073EDC5 /* tztUITextField.m in Sources */,
+				9C86258F1A6CF6AD0073EDC5 /* TZTUIHQINTopView.m in Sources */,
+				9C8625091A6CDBC10073EDC5 /* tztMutilScrollView.m in Sources */,
+				9C86253A1A6CDBC10073EDC5 /* tztUIDroplistView.m in Sources */,
+				9C86252C1A6CDBC10073EDC5 /* tztUIBaseControlsView.m in Sources */,
+				9C8625031A6CDBC10073EDC5 /* TZTCMyComboxView.m in Sources */,
+				9C8625961A6CF6AD0073EDC5 /* tztUITableListInfo.m in Sources */,
+				9C8625531A6CDC860073EDC5 /* TZTOutLineData.m in Sources */,
+				9C8625981A6CF6AD0073EDC5 /* tztUITableListView.m in Sources */,
+				9C8625361A6CDBC10073EDC5 /* tztUIDatePicker.m in Sources */,
+				9C86250F1A6CDBC10073EDC5 /* TZTSevenSwitch.m in Sources */,
+				303447A11BF347B6006AC3C6 /* tztMessageLabel.m in Sources */,
+				9C86258D1A6CF6AD0073EDC5 /* TZTUIHQINLeftView.m in Sources */,
+				9C8625621A6CF5310073EDC5 /* TZTSystermConfig.m in Sources */,
+				9C8625111A6CDBC10073EDC5 /* TZTTabBarProfile.m in Sources */,
+				9C3A28561A6F332700DC70AB /* tztUISegment.m in Sources */,
+				9C8625891A6CF6AD0073EDC5 /* TZTUIBaseGridView.m in Sources */,
+				9C86254A1A6CDBC10073EDC5 /* tztUIVCBaseView.m in Sources */,
+				303447A51BF348BF006AC3C6 /* tztUIHelperImageView.m in Sources */,
+				9C3A28541A6F332700DC70AB /* tztUINewTitleView.m in Sources */,
+				9C09A0EE1A7603DE00C70526 /* TZTSegmentView.m in Sources */,
+				9C86253C1A6CDBC10073EDC5 /* tztUILabel.m in Sources */,
+				9C8625051A6CDBC10073EDC5 /* tztGroupRadioView.m in Sources */,
+				9C86252A1A6CDBC10073EDC5 /* tztUIBarButtonItem.m in Sources */,
+				9C8625281A6CDBC10073EDC5 /* tztUIAlertView.m in Sources */,
+				9C8625A81A6CF70A0073EDC5 /* tztToolbarMoreView.m in Sources */,
+				9C8625571A6CDDE10073EDC5 /* UIColor_TZTColor.m in Sources */,
+				9C3A28651A6F3FD400DC70AB /* tztUIFunctionView.m in Sources */,
+				9C86254C1A6CDBC10073EDC5 /* WZGuideViewController.m in Sources */,
+				9C8625871A6CF6AD0073EDC5 /* TZTGridDataObj.m in Sources */,
+				9C3EF2021A6E44F300878638 /* TZTUIBaseTitleView.m in Sources */,
+				9CECC82F1A81B5AA0040F017 /* tztIdentifyCodeView.m in Sources */,
+				9C3EF1F81A6E42E000878638 /* TZTUIToolBarView.m in Sources */,
+				9C09A0F21A76041E00C70526 /* TZTSegSectionView.m in Sources */,
+				9C86258B1A6CF6AD0073EDC5 /* TZTUIHQINCenterView.m in Sources */,
+				9C86250D1A6CDBC10073EDC5 /* TZTPageInfoItem.m in Sources */,
+				3034478C1BF33D73006AC3C6 /* TZTUIMessageBox.m in Sources */,
+				9C3A292B1A6F7DF500DC70AB /* TZTTagView.m in Sources */,
+				9C86252F1A6CDBC10073EDC5 /* tztUIButton.m in Sources */,
+				9C8625071A6CDBC10073EDC5 /* tztKeyboardView.m in Sources */,
+				9C205FCF1A7785800008588F /* tztTabView.m in Sources */,
+				9C8625401A6CDBC10073EDC5 /* tztUIProgressView.m in Sources */,
+				9C3EF2041A6E44F300878638 /* TZTUIBaseTitleViewOld.m in Sources */,
+				9C3EF1FC1A6E443D00878638 /* tztUITradeToolBarView.m in Sources */,
+				9C8625341A6CDBC10073EDC5 /* tztUIControlsProperty.m in Sources */,
+				303447951BF344E9006AC3C6 /* tztPieView.m in Sources */,
+				9C8625921A6CF6AD0073EDC5 /* TZTUIReportGridView.m in Sources */,
+				04133D8B1AB9667D00B1FF15 /* tztUserSaveDataObj.m in Sources */,
+				9C8625941A6CF6AD0073EDC5 /* tztUITableListCellView.m in Sources */,
+				9C86256C1A6CF5FD0073EDC5 /* TZTUIBaseView.m in Sources */,
+				9C8625421A6CDBC10073EDC5 /* tztUISwitch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CAABCEA1A91E3F60098AF7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tztMobileBase;
+			targetProxy = 9CAABCE91A91E3F60098AF7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9C8624A41A6CDAE30073EDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C8624A51A6CDAE30073EDC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C8624A71A6CDAE30073EDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CONFIGURATION_BUILD_DIR = ../../product/;
+				CURRENT_PROJECT_VERSION = "";
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = NO;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_INSTALL_NAME_BASE = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/work/投资堂2.0/Framework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = tztControl/tztControls.pch;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = tztControl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_DYLIB_INSTALL_NAME = "";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				STRIP_STYLE = "non-global";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		9C8624A81A6CDAE30073EDC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CONFIGURATION_BUILD_DIR = ../../product/;
+				CURRENT_PROJECT_VERSION = "";
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = NO;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_INSTALL_NAME_BASE = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/work/投资堂2.0/Framework",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = tztControl/tztControls.pch;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = tztControl/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_DYLIB_INSTALL_NAME = "";
+				LD_RUNPATH_SEARCH_PATHS = "";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				STRIP_STYLE = "non-global";
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+		9CB414C81A6D0C9700613BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /doc/;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9CB414C91A6D0C9700613BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /doc/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C86248A1A6CDAE30073EDC5 /* Build configuration list for PBXProject "tztControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8624A41A6CDAE30073EDC5 /* Debug */,
+				9C8624A51A6CDAE30073EDC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8624A61A6CDAE30073EDC5 /* Build configuration list for PBXNativeTarget "tztControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8624A71A6CDAE30073EDC5 /* Debug */,
+				9C8624A81A6CDAE30073EDC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CB414CA1A6D0C9700613BC0 /* Build configuration list for PBXAggregateTarget "tztControlDoc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CB414C81A6D0C9700613BC0 /* Debug */,
+				9CB414C91A6D0C9700613BC0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C8624871A6CDAE30073EDC5 /* Project object */;
+}

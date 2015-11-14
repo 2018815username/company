@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>404页面</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <style>
+            .wrap{width:100%; text-align:center;margin-top:30px;}
+            #btn{height:40px; line-height:40px;color:#fff;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;width:60%;margin:0px auto;background:#d64113;font-size:20px;}
+            </style>
+        
+        <script type="text/javascript">
+            window.onload = function (){
+                var oBtn = document.getElementById('btn');
+                
+                oBtn.onclick = function (){
+                    window.location.reload(true);
+                };
+            };
+            </script>
+    </head>
+    <body style="background-color:#ededed;">
+        <div class="wrap">
+            <h2>Opps！</h2>
+            <p>没有找到您要的页面</p>
+            <p id="btn">重新加载</p>
+        </div>
+    </body>
+</html>
+
+<!--HTML>
+    <HEAD>
+        <meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />
+        <title>访问出错</title>
+    </HEAD>
+    
+    <BODY style=\"background-color:#ededed;\">
+        
+        <H1>404 Not Found</H1>
+        
+        The requested URL was not found on this server.
+        
+        <P>
+        
+        <P>
+        
+        <div style=border:5px solid #fff;>
+            <input id="btns" type=button style=background:#ccffee value=重新加载>
+        </div>
+        </P>
+        
+        
+    </BODY>
+    
+</HTML-->

@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04133D931AB9680500B1FF15 /* tztFiveTrendView.h in Headers */ = {isa = PBXBuildFile; fileRef = 04133D911AB9680500B1FF15 /* tztFiveTrendView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04133D941AB9680500B1FF15 /* tztFiveTrendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04133D921AB9680500B1FF15 /* tztFiveTrendView.m */; };
+		9C3888CA1AA5B93B0055152C /* tztTrendFundBarView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3888C81AA5B93B0055152C /* tztTrendFundBarView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C3888CB1AA5B93B0055152C /* tztTrendFundBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3888C91AA5B93B0055152C /* tztTrendFundBarView.m */; };
+		9C3A28721A6F424200DC70AB /* TZTPriceData.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3A28701A6F424200DC70AB /* TZTPriceData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C3A28731A6F424200DC70AB /* TZTPriceData.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C3A28711A6F424200DC70AB /* TZTPriceData.m */; };
+		9C8623581A6CD4110073EDC5 /* tztHqBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C8623571A6CD4110073EDC5 /* tztHqBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB4148E1A6D073A00613BC0 /* tztAutoPushObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB414591A6D073A00613BC0 /* tztAutoPushObj.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB4148F1A6D073A00613BC0 /* tztAutoPushObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4145A1A6D073A00613BC0 /* tztAutoPushObj.m */; };
+		9CB414901A6D073A00613BC0 /* tztBlockIndexInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB4145B1A6D073A00613BC0 /* tztBlockIndexInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414911A6D073A00613BC0 /* tztBlockIndexInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4145C1A6D073A00613BC0 /* tztBlockIndexInfo.m */; };
+		9CB414921A6D073A00613BC0 /* tztBuyTrendView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB4145D1A6D073A00613BC0 /* tztBuyTrendView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414931A6D073A00613BC0 /* tztBuyTrendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4145E1A6D073A00613BC0 /* tztBuyTrendView.m */; };
+		9CB414941A6D073A00613BC0 /* tztDetailView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB4145F1A6D073A00613BC0 /* tztDetailView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414951A6D073A00613BC0 /* tztDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB414601A6D073A00613BC0 /* tztDetailView.m */; };
+		9CB414961A6D073A00613BC0 /* tztFenJiaView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB414611A6D073A00613BC0 /* tztFenJiaView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414971A6D073A00613BC0 /* tztFenJiaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB414621A6D073A00613BC0 /* tztFenJiaView.m */; };
+		9CB414981A6D073A00613BC0 /* tztFinanceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB414631A6D073A00613BC0 /* tztFinanceView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414991A6D073A00613BC0 /* tztFinanceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB414641A6D073A00613BC0 /* tztFinanceView.m */; };
+		9CB4149A1A6D073A00613BC0 /* tztHisTrendView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB414651A6D073A00613BC0 /* tztHisTrendView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB4149B1A6D073A00613BC0 /* tztHisTrendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB414661A6D073A00613BC0 /* tztHisTrendView.m */; };
+		9CB4149C1A6D073A00613BC0 /* tztHKQueueViee.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB414671A6D073A00613BC0 /* tztHKQueueViee.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB4149D1A6D073A00613BC0 /* tztHKQueueViee.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB414681A6D073A00613BC0 /* tztHKQueueViee.m */; };
+		9CB4149E1A6D073A00613BC0 /* tztHqBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB414691A6D073A00613BC0 /* tztHqBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB4149F1A6D073A00613BC0 /* tztHqBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4146A1A6D073A00613BC0 /* tztHqBaseView.m */; };
+		9CB414A01A6D073A00613BC0 /* tztLargeCapitalView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB4146B1A6D073A00613BC0 /* tztLargeCapitalView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414A11A6D073A00613BC0 /* tztLargeCapitalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4146C1A6D073A00613BC0 /* tztLargeCapitalView.m */; };
+		9CB414A21A6D073A00613BC0 /* tztLargeMonitorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB4146D1A6D073A00613BC0 /* tztLargeMonitorView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414A31A6D073A00613BC0 /* tztLargeMonitorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4146E1A6D073A00613BC0 /* tztLargeMonitorView.m */; };
+		9CB414A41A6D073A00613BC0 /* tztPriceView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB4146F1A6D073A00613BC0 /* tztPriceView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414A51A6D073A00613BC0 /* tztPriceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB414701A6D073A00613BC0 /* tztPriceView.m */; };
+		9CB414A61A6D073A00613BC0 /* tztQuoteView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB414711A6D073A00613BC0 /* tztQuoteView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414A71A6D073A00613BC0 /* tztQuoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB414721A6D073A00613BC0 /* tztQuoteView.m */; };
+		9CB414A81A6D073A00613BC0 /* tztReportListView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB414731A6D073A00613BC0 /* tztReportListView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414A91A6D073A00613BC0 /* tztReportListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB414741A6D073A00613BC0 /* tztReportListView.m */; };
+		9CB414AA1A6D073A00613BC0 /* tztReportPage.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB414751A6D073A00613BC0 /* tztReportPage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414AB1A6D073A00613BC0 /* tztReportPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB414761A6D073A00613BC0 /* tztReportPage.m */; };
+		9CB414AC1A6D073A00613BC0 /* tztScrollIndexView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB414771A6D073A00613BC0 /* tztScrollIndexView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414AD1A6D073A00613BC0 /* tztScrollIndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB414781A6D073A00613BC0 /* tztScrollIndexView.m */; };
+		9CB414AE1A6D073A00613BC0 /* tztScrollIndexViewEx.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB414791A6D073A00613BC0 /* tztScrollIndexViewEx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414AF1A6D073A00613BC0 /* tztScrollIndexViewEx.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4147A1A6D073A00613BC0 /* tztScrollIndexViewEx.m */; };
+		9CB414B31A6D073A00613BC0 /* tztTechObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB4147E1A6D073A00613BC0 /* tztTechObj.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414B41A6D073A00613BC0 /* tztTechObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4147F1A6D073A00613BC0 /* tztTechObj.m */; };
+		9CB414B51A6D073A00613BC0 /* tztTechObjBase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB414801A6D073A00613BC0 /* tztTechObjBase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414B61A6D073A00613BC0 /* tztTechObjBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB414811A6D073A00613BC0 /* tztTechObjBase.m */; };
+		9CB414B71A6D073A00613BC0 /* tztTechView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB414821A6D073A00613BC0 /* tztTechView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414B81A6D073A00613BC0 /* tztTechView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB414831A6D073A00613BC0 /* tztTechView.m */; };
+		9CB414B91A6D073A00613BC0 /* tztTrendFundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB414841A6D073A00613BC0 /* tztTrendFundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414BA1A6D073A00613BC0 /* tztTrendFundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB414851A6D073A00613BC0 /* tztTrendFundView.m */; };
+		9CB414BB1A6D073A00613BC0 /* tztTrendView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB414861A6D073A00613BC0 /* tztTrendView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414BC1A6D073A00613BC0 /* tztTrendView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB414871A6D073A00613BC0 /* tztTrendView.m */; };
+		9CB414BD1A6D073A00613BC0 /* tztUIEditValueView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB414881A6D073A00613BC0 /* tztUIEditValueView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414BE1A6D073A00613BC0 /* tztUIEditValueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB414891A6D073A00613BC0 /* tztUIEditValueView.m */; };
+		9CB414BF1A6D073A00613BC0 /* TZTUIFundFlowsView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB4148A1A6D073A00613BC0 /* TZTUIFundFlowsView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414C01A6D073A00613BC0 /* TZTUIFundFlowsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4148B1A6D073A00613BC0 /* TZTUIFundFlowsView.m */; };
+		9CB414C11A6D073A00613BC0 /* tztUIPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CB4148C1A6D073A00613BC0 /* tztUIPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CB414C21A6D073A00613BC0 /* tztUIPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB4148D1A6D073A00613BC0 /* tztUIPickerView.m */; };
+		9CBE34811A76343100370CB7 /* tztCardBankTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CBE347D1A76343100370CB7 /* tztCardBankTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CBE34821A76343100370CB7 /* tztCardBankTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE347E1A76343100370CB7 /* tztCardBankTransform.m */; };
+		9CBE34831A76343100370CB7 /* tztJYLoginInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CBE347F1A76343100370CB7 /* tztJYLoginInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CBE34841A76343100370CB7 /* tztJYLoginInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE34801A76343100370CB7 /* tztJYLoginInfo.m */; };
+		9CBE34871A7634B200370CB7 /* TZTUserInfoDeal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CBE34851A7634B200370CB7 /* TZTUserInfoDeal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CBE34881A7634B200370CB7 /* TZTUserInfoDeal.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBE34861A7634B200370CB7 /* TZTUserInfoDeal.m */; };
+		9CE2781B1A6E23DC00608DB1 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE2781A1A6E23DC00608DB1 /* libsqlite3.dylib */; };
+		9CE2781D1A6E23E100608DB1 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CE2781C1A6E23E100608DB1 /* libz.dylib */; };
+		9CE278201A6E249400608DB1 /* tztUserStock.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE2781E1A6E249400608DB1 /* tztUserStock.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CE278211A6E249400608DB1 /* tztUserStock.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CE2781F1A6E249400608DB1 /* tztUserStock.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04DCD42E1ACA99CA00EF6394 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DCD4281ACA99CA00EF6394 /* tztControl.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C8624901A6CDAE30073EDC5;
+			remoteInfo = tztControl;
+		};
+		303447901BF34424006AC3C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04DCD4281ACA99CA00EF6394 /* tztControl.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C86248F1A6CDAE30073EDC5;
+			remoteInfo = tztControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04133D911AB9680500B1FF15 /* tztFiveTrendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tztFiveTrendView.h; path = tztHQObj/tztFiveTrendView.h; sourceTree = "<group>"; };
+		04133D921AB9680500B1FF15 /* tztFiveTrendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = tztFiveTrendView.m; path = tztHQObj/tztFiveTrendView.m; sourceTree = "<group>"; };
+		04DCD4281ACA99CA00EF6394 /* tztControl.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = tztControl.xcodeproj; path = ../tztControl/tztControl.xcodeproj; sourceTree = "<group>"; };
+		9C3888C81AA5B93B0055152C /* tztTrendFundBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztTrendFundBarView.h; sourceTree = "<group>"; };
+		9C3888C91AA5B93B0055152C /* tztTrendFundBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztTrendFundBarView.m; sourceTree = "<group>"; };
+		9C3A28701A6F424200DC70AB /* TZTPriceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTPriceData.h; sourceTree = "<group>"; };
+		9C3A28711A6F424200DC70AB /* TZTPriceData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTPriceData.m; sourceTree = "<group>"; };
+		9C8623521A6CD4110073EDC5 /* tztHqBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = tztHqBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8623561A6CD4110073EDC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8623571A6CD4110073EDC5 /* tztHqBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tztHqBase.h; sourceTree = "<group>"; };
+		9C8624691A6CD5140073EDC5 /* tztHqBase.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tztHqBase.pch; sourceTree = "<group>"; };
+		9CB414591A6D073A00613BC0 /* tztAutoPushObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztAutoPushObj.h; sourceTree = "<group>"; };
+		9CB4145A1A6D073A00613BC0 /* tztAutoPushObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztAutoPushObj.m; sourceTree = "<group>"; };
+		9CB4145B1A6D073A00613BC0 /* tztBlockIndexInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztBlockIndexInfo.h; sourceTree = "<group>"; };
+		9CB4145C1A6D073A00613BC0 /* tztBlockIndexInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztBlockIndexInfo.m; sourceTree = "<group>"; };
+		9CB4145D1A6D073A00613BC0 /* tztBuyTrendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztBuyTrendView.h; sourceTree = "<group>"; };
+		9CB4145E1A6D073A00613BC0 /* tztBuyTrendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztBuyTrendView.m; sourceTree = "<group>"; };
+		9CB4145F1A6D073A00613BC0 /* tztDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztDetailView.h; sourceTree = "<group>"; };
+		9CB414601A6D073A00613BC0 /* tztDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztDetailView.m; sourceTree = "<group>"; };
+		9CB414611A6D073A00613BC0 /* tztFenJiaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztFenJiaView.h; sourceTree = "<group>"; };
+		9CB414621A6D073A00613BC0 /* tztFenJiaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztFenJiaView.m; sourceTree = "<group>"; };
+		9CB414631A6D073A00613BC0 /* tztFinanceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztFinanceView.h; sourceTree = "<group>"; };
+		9CB414641A6D073A00613BC0 /* tztFinanceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztFinanceView.m; sourceTree = "<group>"; };
+		9CB414651A6D073A00613BC0 /* tztHisTrendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztHisTrendView.h; sourceTree = "<group>"; };
+		9CB414661A6D073A00613BC0 /* tztHisTrendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztHisTrendView.m; sourceTree = "<group>"; };
+		9CB414671A6D073A00613BC0 /* tztHKQueueViee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztHKQueueViee.h; sourceTree = "<group>"; };
+		9CB414681A6D073A00613BC0 /* tztHKQueueViee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztHKQueueViee.m; sourceTree = "<group>"; };
+		9CB414691A6D073A00613BC0 /* tztHqBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztHqBaseView.h; sourceTree = "<group>"; };
+		9CB4146A1A6D073A00613BC0 /* tztHqBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztHqBaseView.m; sourceTree = "<group>"; };
+		9CB4146B1A6D073A00613BC0 /* tztLargeCapitalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztLargeCapitalView.h; sourceTree = "<group>"; };
+		9CB4146C1A6D073A00613BC0 /* tztLargeCapitalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztLargeCapitalView.m; sourceTree = "<group>"; };
+		9CB4146D1A6D073A00613BC0 /* tztLargeMonitorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztLargeMonitorView.h; sourceTree = "<group>"; };
+		9CB4146E1A6D073A00613BC0 /* tztLargeMonitorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztLargeMonitorView.m; sourceTree = "<group>"; };
+		9CB4146F1A6D073A00613BC0 /* tztPriceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztPriceView.h; sourceTree = "<group>"; };
+		9CB414701A6D073A00613BC0 /* tztPriceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztPriceView.m; sourceTree = "<group>"; };
+		9CB414711A6D073A00613BC0 /* tztQuoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztQuoteView.h; sourceTree = "<group>"; };
+		9CB414721A6D073A00613BC0 /* tztQuoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztQuoteView.m; sourceTree = "<group>"; };
+		9CB414731A6D073A00613BC0 /* tztReportListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztReportListView.h; sourceTree = "<group>"; };
+		9CB414741A6D073A00613BC0 /* tztReportListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztReportListView.m; sourceTree = "<group>"; };
+		9CB414751A6D073A00613BC0 /* tztReportPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztReportPage.h; sourceTree = "<group>"; };
+		9CB414761A6D073A00613BC0 /* tztReportPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztReportPage.m; sourceTree = "<group>"; };
+		9CB414771A6D073A00613BC0 /* tztScrollIndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztScrollIndexView.h; sourceTree = "<group>"; };
+		9CB414781A6D073A00613BC0 /* tztScrollIndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztScrollIndexView.m; sourceTree = "<group>"; };
+		9CB414791A6D073A00613BC0 /* tztScrollIndexViewEx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztScrollIndexViewEx.h; sourceTree = "<group>"; };
+		9CB4147A1A6D073A00613BC0 /* tztScrollIndexViewEx.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztScrollIndexViewEx.m; sourceTree = "<group>"; };
+		9CB4147E1A6D073A00613BC0 /* tztTechObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztTechObj.h; sourceTree = "<group>"; };
+		9CB4147F1A6D073A00613BC0 /* tztTechObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztTechObj.m; sourceTree = "<group>"; };
+		9CB414801A6D073A00613BC0 /* tztTechObjBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztTechObjBase.h; sourceTree = "<group>"; };
+		9CB414811A6D073A00613BC0 /* tztTechObjBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztTechObjBase.m; sourceTree = "<group>"; };
+		9CB414821A6D073A00613BC0 /* tztTechView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztTechView.h; sourceTree = "<group>"; };
+		9CB414831A6D073A00613BC0 /* tztTechView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztTechView.m; sourceTree = "<group>"; };
+		9CB414841A6D073A00613BC0 /* tztTrendFundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztTrendFundView.h; sourceTree = "<group>"; };
+		9CB414851A6D073A00613BC0 /* tztTrendFundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztTrendFundView.m; sourceTree = "<group>"; };
+		9CB414861A6D073A00613BC0 /* tztTrendView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztTrendView.h; sourceTree = "<group>"; };
+		9CB414871A6D073A00613BC0 /* tztTrendView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztTrendView.m; sourceTree = "<group>"; };
+		9CB414881A6D073A00613BC0 /* tztUIEditValueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUIEditValueView.h; sourceTree = "<group>"; };
+		9CB414891A6D073A00613BC0 /* tztUIEditValueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUIEditValueView.m; sourceTree = "<group>"; };
+		9CB4148A1A6D073A00613BC0 /* TZTUIFundFlowsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTUIFundFlowsView.h; sourceTree = "<group>"; };
+		9CB4148B1A6D073A00613BC0 /* TZTUIFundFlowsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTUIFundFlowsView.m; sourceTree = "<group>"; };
+		9CB4148C1A6D073A00613BC0 /* tztUIPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUIPickerView.h; sourceTree = "<group>"; };
+		9CB4148D1A6D073A00613BC0 /* tztUIPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUIPickerView.m; sourceTree = "<group>"; };
+		9CBE347D1A76343100370CB7 /* tztCardBankTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztCardBankTransform.h; sourceTree = "<group>"; };
+		9CBE347E1A76343100370CB7 /* tztCardBankTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztCardBankTransform.m; sourceTree = "<group>"; };
+		9CBE347F1A76343100370CB7 /* tztJYLoginInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztJYLoginInfo.h; sourceTree = "<group>"; };
+		9CBE34801A76343100370CB7 /* tztJYLoginInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztJYLoginInfo.m; sourceTree = "<group>"; };
+		9CBE34851A7634B200370CB7 /* TZTUserInfoDeal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZTUserInfoDeal.h; sourceTree = "<group>"; };
+		9CBE34861A7634B200370CB7 /* TZTUserInfoDeal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZTUserInfoDeal.m; sourceTree = "<group>"; };
+		9CE2781A1A6E23DC00608DB1 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		9CE2781C1A6E23E100608DB1 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		9CE2781E1A6E249400608DB1 /* tztUserStock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tztUserStock.h; sourceTree = "<group>"; };
+		9CE2781F1A6E249400608DB1 /* tztUserStock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tztUserStock.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C86234E1A6CD4110073EDC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CE2781D1A6E23E100608DB1 /* libz.dylib in Frameworks */,
+				9CE2781B1A6E23DC00608DB1 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04DCD4291ACA99CA00EF6394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04DCD42F1ACA99CA00EF6394 /* tztControl.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C8623481A6CD4110073EDC5 = {
+			isa = PBXGroup;
+			children = (
+				04DCD4281ACA99CA00EF6394 /* tztControl.xcodeproj */,
+				04133D911AB9680500B1FF15 /* tztFiveTrendView.h */,
+				04133D921AB9680500B1FF15 /* tztFiveTrendView.m */,
+				9CE2781C1A6E23E100608DB1 /* libz.dylib */,
+				9CE2781A1A6E23DC00608DB1 /* libsqlite3.dylib */,
+				9C8623541A6CD4110073EDC5 /* tztHqBase */,
+				9C8623531A6CD4110073EDC5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C8623531A6CD4110073EDC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C8623521A6CD4110073EDC5 /* tztHqBase.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C8623541A6CD4110073EDC5 /* tztHqBase */ = {
+			isa = PBXGroup;
+			children = (
+				9CBE347C1A76343100370CB7 /* userinfo */,
+				9CB414581A6D073A00613BC0 /* tztHQObj */,
+				9C8623571A6CD4110073EDC5 /* tztHqBase.h */,
+				9C8623551A6CD4110073EDC5 /* Supporting Files */,
+			);
+			path = tztHqBase;
+			sourceTree = "<group>";
+		};
+		9C8623551A6CD4110073EDC5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9C8623561A6CD4110073EDC5 /* Info.plist */,
+				9C8624691A6CD5140073EDC5 /* tztHqBase.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9CB414581A6D073A00613BC0 /* tztHQObj */ = {
+			isa = PBXGroup;
+			children = (
+				9C3A28701A6F424200DC70AB /* TZTPriceData.h */,
+				9C3A28711A6F424200DC70AB /* TZTPriceData.m */,
+				9CE2781E1A6E249400608DB1 /* tztUserStock.h */,
+				9CE2781F1A6E249400608DB1 /* tztUserStock.m */,
+				9CB414591A6D073A00613BC0 /* tztAutoPushObj.h */,
+				9CB4145A1A6D073A00613BC0 /* tztAutoPushObj.m */,
+				9CB4145B1A6D073A00613BC0 /* tztBlockIndexInfo.h */,
+				9CB4145C1A6D073A00613BC0 /* tztBlockIndexInfo.m */,
+				9CB4145D1A6D073A00613BC0 /* tztBuyTrendView.h */,
+				9CB4145E1A6D073A00613BC0 /* tztBuyTrendView.m */,
+				9CB4145F1A6D073A00613BC0 /* tztDetailView.h */,
+				9CB414601A6D073A00613BC0 /* tztDetailView.m */,
+				9CB414611A6D073A00613BC0 /* tztFenJiaView.h */,
+				9CB414621A6D073A00613BC0 /* tztFenJiaView.m */,
+				9CB414631A6D073A00613BC0 /* tztFinanceView.h */,
+				9CB414641A6D073A00613BC0 /* tztFinanceView.m */,
+				9CB414651A6D073A00613BC0 /* tztHisTrendView.h */,
+				9CB414661A6D073A00613BC0 /* tztHisTrendView.m */,
+				9CB414671A6D073A00613BC0 /* tztHKQueueViee.h */,
+				9CB414681A6D073A00613BC0 /* tztHKQueueViee.m */,
+				9CB414691A6D073A00613BC0 /* tztHqBaseView.h */,
+				9CB4146A1A6D073A00613BC0 /* tztHqBaseView.m */,
+				9CB4146B1A6D073A00613BC0 /* tztLargeCapitalView.h */,
+				9CB4146C1A6D073A00613BC0 /* tztLargeCapitalView.m */,
+				9CB4146D1A6D073A00613BC0 /* tztLargeMonitorView.h */,
+				9CB4146E1A6D073A00613BC0 /* tztLargeMonitorView.m */,
+				9CB4146F1A6D073A00613BC0 /* tztPriceView.h */,
+				9CB414701A6D073A00613BC0 /* tztPriceView.m */,
+				9CB414711A6D073A00613BC0 /* tztQuoteView.h */,
+				9CB414721A6D073A00613BC0 /* tztQuoteView.m */,
+				9CB414731A6D073A00613BC0 /* tztReportListView.h */,
+				9CB414741A6D073A00613BC0 /* tztReportListView.m */,
+				9CB414751A6D073A00613BC0 /* tztReportPage.h */,
+				9CB414761A6D073A00613BC0 /* tztReportPage.m */,
+				9CB414771A6D073A00613BC0 /* tztScrollIndexView.h */,
+				9CB414781A6D073A00613BC0 /* tztScrollIndexView.m */,
+				9CB414791A6D073A00613BC0 /* tztScrollIndexViewEx.h */,
+				9CB4147A1A6D073A00613BC0 /* tztScrollIndexViewEx.m */,
+				9CB4147E1A6D073A00613BC0 /* tztTechObj.h */,
+				9CB4147F1A6D073A00613BC0 /* tztTechObj.m */,
+				9CB414801A6D073A00613BC0 /* tztTechObjBase.h */,
+				9CB414811A6D073A00613BC0 /* tztTechObjBase.m */,
+				9CB414821A6D073A00613BC0 /* tztTechView.h */,
+				9CB414831A6D073A00613BC0 /* tztTechView.m */,
+				9CB414841A6D073A00613BC0 /* tztTrendFundView.h */,
+				9CB414851A6D073A00613BC0 /* tztTrendFundView.m */,
+				9CB414861A6D073A00613BC0 /* tztTrendView.h */,
+				9CB414871A6D073A00613BC0 /* tztTrendView.m */,
+				9CB414881A6D073A00613BC0 /* tztUIEditValueView.h */,
+				9CB414891A6D073A00613BC0 /* tztUIEditValueView.m */,
+				9CB4148A1A6D073A00613BC0 /* TZTUIFundFlowsView.h */,
+				9CB4148B1A6D073A00613BC0 /* TZTUIFundFlowsView.m */,
+				9CB4148C1A6D073A00613BC0 /* tztUIPickerView.h */,
+				9CB4148D1A6D073A00613BC0 /* tztUIPickerView.m */,
+				9C3888C81AA5B93B0055152C /* tztTrendFundBarView.h */,
+				9C3888C91AA5B93B0055152C /* tztTrendFundBarView.m */,
+			);
+			path = tztHQObj;
+			sourceTree = SOURCE_ROOT;
+		};
+		9CBE347C1A76343100370CB7 /* userinfo */ = {
+			isa = PBXGroup;
+			children = (
+				9CBE34851A7634B200370CB7 /* TZTUserInfoDeal.h */,
+				9CBE34861A7634B200370CB7 /* TZTUserInfoDeal.m */,
+				9CBE347D1A76343100370CB7 /* tztCardBankTransform.h */,
+				9CBE347E1A76343100370CB7 /* tztCardBankTransform.m */,
+				9CBE347F1A76343100370CB7 /* tztJYLoginInfo.h */,
+				9CBE34801A76343100370CB7 /* tztJYLoginInfo.m */,
+			);
+			path = userinfo;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9C86234F1A6CD4110073EDC5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBE34811A76343100370CB7 /* tztCardBankTransform.h in Headers */,
+				9CB414AA1A6D073A00613BC0 /* tztReportPage.h in Headers */,
+				9CB414981A6D073A00613BC0 /* tztFinanceView.h in Headers */,
+				9CB414A81A6D073A00613BC0 /* tztReportListView.h in Headers */,
+				9CB414A41A6D073A00613BC0 /* tztPriceView.h in Headers */,
+				9CB414A01A6D073A00613BC0 /* tztLargeCapitalView.h in Headers */,
+				9CB414941A6D073A00613BC0 /* tztDetailView.h in Headers */,
+				9C3888CA1AA5B93B0055152C /* tztTrendFundBarView.h in Headers */,
+				9CB414A21A6D073A00613BC0 /* tztLargeMonitorView.h in Headers */,
+				9CB414C11A6D073A00613BC0 /* tztUIPickerView.h in Headers */,
+				9CB414901A6D073A00613BC0 /* tztBlockIndexInfo.h in Headers */,
+				9CBE34831A76343100370CB7 /* tztJYLoginInfo.h in Headers */,
+				9CBE34871A7634B200370CB7 /* TZTUserInfoDeal.h in Headers */,
+				9CB414921A6D073A00613BC0 /* tztBuyTrendView.h in Headers */,
+				9CB414AC1A6D073A00613BC0 /* tztScrollIndexView.h in Headers */,
+				9CB414A61A6D073A00613BC0 /* tztQuoteView.h in Headers */,
+				9CB4148E1A6D073A00613BC0 /* tztAutoPushObj.h in Headers */,
+				9CB414BB1A6D073A00613BC0 /* tztTrendView.h in Headers */,
+				9CB4149A1A6D073A00613BC0 /* tztHisTrendView.h in Headers */,
+				9C3A28721A6F424200DC70AB /* TZTPriceData.h in Headers */,
+				9CB414B31A6D073A00613BC0 /* tztTechObj.h in Headers */,
+				9CB4149E1A6D073A00613BC0 /* tztHqBaseView.h in Headers */,
+				9CB414BD1A6D073A00613BC0 /* tztUIEditValueView.h in Headers */,
+				9CB414B71A6D073A00613BC0 /* tztTechView.h in Headers */,
+				9CB414AE1A6D073A00613BC0 /* tztScrollIndexViewEx.h in Headers */,
+				9CB414961A6D073A00613BC0 /* tztFenJiaView.h in Headers */,
+				9CB414B51A6D073A00613BC0 /* tztTechObjBase.h in Headers */,
+				9CB4149C1A6D073A00613BC0 /* tztHKQueueViee.h in Headers */,
+				9CB414BF1A6D073A00613BC0 /* TZTUIFundFlowsView.h in Headers */,
+				9CB414B91A6D073A00613BC0 /* tztTrendFundView.h in Headers */,
+				04133D931AB9680500B1FF15 /* tztFiveTrendView.h in Headers */,
+				9CE278201A6E249400608DB1 /* tztUserStock.h in Headers */,
+				9C8623581A6CD4110073EDC5 /* tztHqBase.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9C8623511A6CD4110073EDC5 /* tztHqBase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C8623681A6CD4110073EDC5 /* Build configuration list for PBXNativeTarget "tztHqBase" */;
+			buildPhases = (
+				9C86234D1A6CD4110073EDC5 /* Sources */,
+				9C86234E1A6CD4110073EDC5 /* Frameworks */,
+				9C86234F1A6CD4110073EDC5 /* Headers */,
+				9C8623501A6CD4110073EDC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				303447911BF34424006AC3C6 /* PBXTargetDependency */,
+			);
+			name = tztHqBase;
+			productName = tztHqBase;
+			productReference = 9C8623521A6CD4110073EDC5 /* tztHqBase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C8623491A6CD4110073EDC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = tzt;
+				TargetAttributes = {
+					9C8623511A6CD4110073EDC5 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 9C86234C1A6CD4110073EDC5 /* Build configuration list for PBXProject "tztHqBase" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9C8623481A6CD4110073EDC5;
+			productRefGroup = 9C8623531A6CD4110073EDC5 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 04DCD4291ACA99CA00EF6394 /* Products */;
+					ProjectRef = 04DCD4281ACA99CA00EF6394 /* tztControl.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9C8623511A6CD4110073EDC5 /* tztHqBase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		04DCD42F1ACA99CA00EF6394 /* tztControl.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = tztControl.framework;
+			remoteRef = 04DCD42E1ACA99CA00EF6394 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C8623501A6CD4110073EDC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C86234D1A6CD4110073EDC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CB414BC1A6D073A00613BC0 /* tztTrendView.m in Sources */,
+				9CB414A71A6D073A00613BC0 /* tztQuoteView.m in Sources */,
+				9CB414B41A6D073A00613BC0 /* tztTechObj.m in Sources */,
+				9CB414A11A6D073A00613BC0 /* tztLargeCapitalView.m in Sources */,
+				9CB414B61A6D073A00613BC0 /* tztTechObjBase.m in Sources */,
+				9CB414BE1A6D073A00613BC0 /* tztUIEditValueView.m in Sources */,
+				9CB414991A6D073A00613BC0 /* tztFinanceView.m in Sources */,
+				9CBE34841A76343100370CB7 /* tztJYLoginInfo.m in Sources */,
+				9C3A28731A6F424200DC70AB /* TZTPriceData.m in Sources */,
+				9CBE34881A7634B200370CB7 /* TZTUserInfoDeal.m in Sources */,
+				9C3888CB1AA5B93B0055152C /* tztTrendFundBarView.m in Sources */,
+				9CB414C21A6D073A00613BC0 /* tztUIPickerView.m in Sources */,
+				9CE278211A6E249400608DB1 /* tztUserStock.m in Sources */,
+				9CB414AD1A6D073A00613BC0 /* tztScrollIndexView.m in Sources */,
+				9CB4148F1A6D073A00613BC0 /* tztAutoPushObj.m in Sources */,
+				9CB414AB1A6D073A00613BC0 /* tztReportPage.m in Sources */,
+				9CB414C01A6D073A00613BC0 /* TZTUIFundFlowsView.m in Sources */,
+				04133D941AB9680500B1FF15 /* tztFiveTrendView.m in Sources */,
+				9CB4149F1A6D073A00613BC0 /* tztHqBaseView.m in Sources */,
+				9CB414931A6D073A00613BC0 /* tztBuyTrendView.m in Sources */,
+				9CB414951A6D073A00613BC0 /* tztDetailView.m in Sources */,
+				9CBE34821A76343100370CB7 /* tztCardBankTransform.m in Sources */,
+				9CB414AF1A6D073A00613BC0 /* tztScrollIndexViewEx.m in Sources */,
+				9CB414A31A6D073A00613BC0 /* tztLargeMonitorView.m in Sources */,
+				9CB4149B1A6D073A00613BC0 /* tztHisTrendView.m in Sources */,
+				9CB414BA1A6D073A00613BC0 /* tztTrendFundView.m in Sources */,
+				9CB414911A6D073A00613BC0 /* tztBlockIndexInfo.m in Sources */,
+				9CB414A51A6D073A00613BC0 /* tztPriceView.m in Sources */,
+				9CB4149D1A6D073A00613BC0 /* tztHKQueueViee.m in Sources */,
+				9CB414971A6D073A00613BC0 /* tztFenJiaView.m in Sources */,
+				9CB414A91A6D073A00613BC0 /* tztReportListView.m in Sources */,
+				9CB414B81A6D073A00613BC0 /* tztTechView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		303447911BF34424006AC3C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = tztControl;
+			targetProxy = 303447901BF34424006AC3C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9C8623661A6CD4110073EDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9C8623671A6CD4110073EDC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9C8623691A6CD4110073EDC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CONFIGURATION_BUILD_DIR = ../../product;
+				CURRENT_PROJECT_VERSION = "";
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = NO;
+				DYLIB_INSTALL_NAME_BASE = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/work/投资堂2.0/Framework",
+					/workspace/product,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = tztHqBase/tztHqBase.pch;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = tztHqBase/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				STRIP_STYLE = "non-global";
+				VALIDATE_PRODUCT = NO;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		9C86236A1A6CD4110073EDC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+				);
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = NO;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CONFIGURATION_BUILD_DIR = ../../product;
+				CURRENT_PROJECT_VERSION = "";
+				DEAD_CODE_STRIPPING = NO;
+				DEFINES_MODULE = NO;
+				DYLIB_INSTALL_NAME_BASE = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/work/投资堂2.0/Framework",
+					/workspace/product,
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = tztHqBase/tztHqBase.pch;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = tztHqBase/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRINGS_FILE_OUTPUT_ENCODING = "UTF-8";
+				STRIP_STYLE = "non-global";
+				VALIDATE_PRODUCT = NO;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C86234C1A6CD4110073EDC5 /* Build configuration list for PBXProject "tztHqBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8623661A6CD4110073EDC5 /* Debug */,
+				9C8623671A6CD4110073EDC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C8623681A6CD4110073EDC5 /* Build configuration list for PBXNativeTarget "tztHqBase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C8623691A6CD4110073EDC5 /* Debug */,
+				9C86236A1A6CD4110073EDC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C8623491A6CD4110073EDC5 /* Project object */;
+}

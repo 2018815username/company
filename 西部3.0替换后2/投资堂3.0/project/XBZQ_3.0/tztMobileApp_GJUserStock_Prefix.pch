@@ -1,0 +1,260 @@
+//
+// Prefix header for all source files of the 'tztMobileApp' target in the 'tztMobileApp' project
+//
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+//#if defined(__GNUC__) && !TARGET_IPHONE_SIMULATOR && ( defined(__APPLE_CPP__) || defined(__APPLE_CC__) || defined(__MACOS_CLASSIC__) )
+//#define Support_GJKHHTTPData
+//#endif
+
+// #define tzt_Share
+
+#ifdef tzt_Share
+//#import <TencentOpenAPI/QQApiInterface.h>
+#define kWechatID       @"wxd511b600d2d6a705"
+#define kAppKey         @"2045436852"
+
+#define WiressSDKDemoAppKey     @"801478099"
+#define WiressSDKDemoAppSecret  @"098b8d8df6bb288116d499b0ba410aa8"
+#define REDIRECTURI             @"http://www.sina.com"
+#import "TZTShareObject.h"
+#import "TZTShareContentDelegate.h"
+#endif
+// ShareEnd
+
+#import "PPRevealSideViewController.h"
+
+
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+    #import <tztMobileBase/tztMoblieBasedef.h>
+    #import <tztMobileBase/tztMobileBase.h>
+    #import <tztMobileBase/tztNSLocation.h>
+//    #import <tztMobileBase/tztStatusBar.h>
+
+    #import <tztControl/tztControl.h>
+    #import <tztHqBase/tztHqBase.h>
+
+    #import "tztSystemdef.h"
+    #import "tztMobileAppAppDelegate.h"
+    #import "tztInterface.h"
+    #import "tztPushDataObj.h"
+    #import "UIColor+WryFixColor.h"
+    #import "tztUIDocumentViewController.h"
+    // Share
+
+#import "TZTUserStockDetailViewController.h"
+#endif
+//#define tzt_Share
+
+#define tzt_NewVersion
+
+#define XBZQ_3
+#define TZT_ZYData
+
+//#define AccoutAddPWD //登录加密
+#define SaveAccountInLocal //保存账号到本地
+
+//支持自营功能
+//#define Support_ZYFuction
+
+//#define EXEAccess
+
+#define Old_Info_Fuction
+
+
+
+//#define YJBLightVersion
+
+//#define TrendNMove
+
+#ifdef tzt_bundlename
+#undef tzt_bundlename
+#endif
+
+#define tzt_bundlename @"xbzq_iphone" //默认bundlename
+
+#define tztRunSchemesURL @"gjtrade.gjkaihu"
+
+//#ifdef TZTDailPhoneNUM
+//#undef TZTDailPhoneNUM
+//#endif
+//
+//#define TZTDailPhoneNUM @"0571-56696192"
+//消息推送
+#define TZT_PUSH
+#define Support_HKTrade //港股通
+
+//用户手机号码唯一登陆
+//#define tzt_CheckUserLogin
+
+/*
+ //企业版本
+ CFrom=tztqyb_iphone
+ TFrom=qybnewiphone
+ //appstore
+ CFrom=tzt.iphone
+ TFrom=newiphone
+ */
+#define tzt_TFrom @"iphone"
+
+#define Has_From
+
+//隐藏菜单,如 我的自选,大盘指数等
+#define Support_ShowMenuID
+
+#define tzt_TradeList
+
+#ifdef Support_tztTradeList
+#undef Support_tztTradeList
+#define Support_tztTradeList 1
+#endif
+
+#define Support_HKHQTen //港股十档行情显示 ，不开启就是5档
+#define tztHaveRights   //强制十档，不进行权限判断，若不定义，根据后台返回权限判断显示十档还是1档
+
+
+
+//#ifdef tztXMargin
+//#undef tztXMargin
+//#endif
+//
+//#ifdef tztUIBaseViewTableRadius
+//#undef tztUIBaseViewTableRadius
+//#endif
+//
+//#define tztXMargin (0)
+//#define tztUIBaseViewTableRadius (0)
+//
+//#define tztNoRadius
+//
+//#ifdef tztYMargin
+//#undef tztYMargin
+//#endif
+//
+//#define tztYMargin (10)
+
+
+
+#define Support_EXE_VERSION
+
+#ifdef UseAnimated
+#undef UseAnimated
+#endif
+
+//基金交易
+#define Support_FundTrade
+
+#ifdef Support_EXE_VERSION
+#define UseAnimated 0
+#else
+#define UseAnimated 0
+#endif
+
+#ifdef TZTUIBaseInterfaceUsePNG
+#undef TZTUIBaseInterfaceUsePNG
+#endif
+
+#define TZTUIBaseInterfaceUsePNG (0)
+//#define tzt_ChaoGen
+//#define Support_HomePageScroll
+//支持历史分时
+//#define Support_HisTrend
+//支持大单净量
+//#define TZT_ZYData
+
+#define tzt_HiddenCycle
+#define tzt_HiddenTechObj
+//#define tzt_UseUserTool
+
+#define tztNoBorderWidth
+
+#define tztDetailHasSecond
+
+//#define tzt_SupportKLineMove
+
+ /**
+ *	@brief	是否启用欢迎引导页
+ */
+//#define tzt_StartPage
+
+#ifdef tzt_StartPage
+ /**
+ *	@brief	iPhone5屏幕下欢迎引导页需要现实的图片定义，不定义使用默认
+ */
+#define tztStartForIPhone5 @"tzt_Start_1.gif,tzt_Start_2.gif,tzt_Start_3.gif,tzt_Start_4.gif,tzt_Start_5.gif"
+#define tztStartForIPhone5 @"tztStart_step1-568h,tztStart_step2-568h,tztStart_step3-568h,tztStart_step4-568h,tztStart_step5-568h"
+
+ /**
+ *	@brief	3.5寸屏现实图片
+ */
+#define tztStartForIPhone  @"tzt_Start_1.gif,tzt_Start_2.gif,tzt_Start_3.gif,tzt_Start_4.gif,tzt_Start_5.gif"
+#define tztStartForIPhone @"tztStart_step1,tztStart_step2,tztStart_step3,tztStart_step4,tztStart_step5"
+
+//#define tzt_HiddenGuidePageControll
+#define tzt_StartPageContro_PageIndicatorTintColor @"203,203,203"
+#define tzt_StartPageContro_CurrentPageIndicatorTintColor @"0,144,229"
+#define tzt_Start_Btn_Offset 20
+#endif
+
+//#define tzt_GJSC
+
+#define tzt_hasUSStockDetail
+
+#define tztCanChangeHQColor
+
+
+#ifdef YJBLightVersion
+
+#define Support_GJKHHTTPData
+#define NRequestMarket // 不请求市场列表
+
+//#ifdef tztNoBorderWidth
+//#undef tztNoBorderWidth
+//#endif
+
+#else
+
+//启动首页位置
+#define tztStartType tztvckind_Main
+
+//#define Support_GJKHHTTPData
+
+#endif
+
+#define tzt_DetailHiddenZD
+
+//支持融资融券
+#define Support_RZRQ
+
+ /**
+ *	@brief	分时不要显示中间时间
+ */
+#define tztNoTrendTime
+
+#define tztFixYAxiColor @"51,153,204"
+
+#define tzt_SupportUniqueId
+
+#define tzt_NotUploadWhenAddOrDel
+
+#define Support_FenJia
+
+
+//#ifdef TZTTABLECELLHEIGHT
+//#undef TZTTABLECELLHEIGHT
+//#endif
+//
+//#define TZTTABLECELLHEIGHT 35
+
+
+//      add by ruyi
+#define Support_DFCG
+#define tzt_TrendFundFlow
+#define Support_SBTrade

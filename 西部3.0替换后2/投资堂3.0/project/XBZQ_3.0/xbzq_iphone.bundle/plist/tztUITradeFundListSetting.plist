@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>TZTTradeGrid</key>
+	<array>
+		<string>TZTFundTrade_RG.png|基金认购|12710|||||||</string>
+		<string>TZTFundTrade_SG.png|基金申购|12711|||||||</string>
+		<string>TZTFundTrade_SH.png|基金赎回|12712|||||||</string>
+		<string>TZTFundTrade_DRWT.png|当日委托|12801|||||||</string>
+		<string>TZTFundTrade_CXWT.png|撤销委托|12800|||||||</string>
+		<string>TZTFundTrade_LSCJ.png|历史成交|12841|||||||</string>
+		<string>TZTFundTrade_LSWT.png|历史委托|12840|||||||</string>
+		<string>TZTFundTrade_CCJJ.png|持仓基金|12802|||||||</string>
+		<string>TZTFundTrade_FHSZ.png|分红设置|12713|||||||</string>
+		<string>TZTFundTrade_JJZH.png|基金账户|12823|||||||</string>
+		<string>TZTFundTrade_JJKH.png|基金开户|12715|||||||</string>
+		<string>TZTFundTrade_Exchange.png|基金转换|12714|||||||</string>
+		<string>;TZTFundPHTrade.png|基金盘后业务|50101|tztFundPHListSetting|||</string>
+		<string>;TZTTradeOut.png|退出交易|10302||||</string>
+		<string>;TZTFundTrade_DT.png|基金定投||tztFundDTListSetting||||||</string>
+		<string>TZTHBFundTrade.png|货币基金||tztFundHBListSetting|||</string>
+		<string>TZTFundTrade_DT.png|基金定投|4057|||||||</string>
+	</array>
+	<key>tztFundPHListSetting</key>
+	<array>
+		<string>TZTFundPHTrade_CF.png|基金合并/拆分|4022|||||||</string>
+		<string>TZTFundPHTrade_HB.png|历史成交|4064|||||||</string>
+		<string>TZTFundPHTrade_CD.png|查询成交|4044|||||||</string>
+		<string>TZTFundPHTrade_CX.png|历史委托|4045|||||||</string>
+		<string>TZTFundPHTrade_CJ.png|查询委托|4046|||||||</string>
+		<string>|基金撤单|4047|||||||</string>
+	</array>
+	<key>tztFundHBListSetting</key>
+	<array>
+		<string>TZTHBFundTrade_SG.png|货币基金申购|12760|||||||</string>
+		<string>TZTHBFundTrade_SH.png|货币基金赎回|12761|||||||</string>
+		<string>TZTHBFundTrade_CCWT.png|货币基金当日委托|12807|||||||</string>
+	</array>
+	<key>tztFundDTListSetting</key>
+	<array>
+		<string>TZTFundTrade_DJ.png|定投登记|4058|||||||</string>
+		<string>TZTFundTrade_BY.png|定投变约|4060|||||||</string>
+		<string>TZTFundTrade_QX.png|定投取消|4059|||||||</string>
+	</array>
+</dict>
+</plist>

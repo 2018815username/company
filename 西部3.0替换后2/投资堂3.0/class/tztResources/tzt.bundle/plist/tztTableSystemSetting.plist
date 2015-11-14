@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>systemsetting</key>
+	<array>
+		<string>;TZTSoftCZ.png|软件充值|5809|||||||</string>
+		<string>TZTSendToFriend.png|好友推荐|5807|||||||||</string>
+		<string>;TZTSoftYXQ.png|查询有效期|5808|||||||||</string>
+		<string>TZTSetServer.png|服务器设置|5810|||||||</string>
+		<string>TZTCheckServer.png|服务器测速|5815|||||||</string>
+		<string>;TZTTZKDSet.png|快递设置|5817|||||||</string>
+		<string>TZTSetHQ.png|行情设置|5818||||</string>
+		<string>TZTReRegist.png|重新激活|5811|||||||</string>
+		<string>TZTSoftVersion.png|版本信息|5805|||||||||</string>
+		<string>TZTContact.png|联系方式|5813|||||||</string>
+		<string>TZTMZTK.png|免责条款|5806|||||||</string>
+	</array>
+	<key>tableproperty</key>
+	<string></string>
+</dict>
+</plist>

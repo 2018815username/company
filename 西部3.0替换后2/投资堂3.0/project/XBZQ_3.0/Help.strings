@@ -1,0 +1,88 @@
+/*
+ 首页 西部之窗 xbxty/app/index.htm
+ 首页 证券要闻 xbxty/app/yw_index.htm
+ 消息首页  
+ 
+ 掌厅首页 xbxty/app/zt/zt_index.htm
+ 
+ 设置首页 xbxty/app/set/set_index.htm
+ 
+ 交易首页 /xbxty/app/jy/jy_index.htm
+ */
+
+/*   注释的文件--------------zhushidewenjian
+//Appobj.m
+ if (!ISNSStringValid(g_pSystermConfig.themeColor))
+ {
+ g_pSystermConfig.themeColor = @"0";
+ }
+ 
+ if (g_pSystermConfig.themeColor.length > 0) {
+ NSString* strUI = g_pSystermConfig.themeColor;
+ // 主题色
+ NSDictionary *dict = @{@"BgColorIndex":strUI};
+ SetDictByListName(dict, @"BackgroundColorSet");
+ }
+ 
+ 
+ 1.获取登录的时候去的值
+ 
+ 
+ NSString* nsAccountType = nil;//委托类别
+ int accoutInde = [_tztTableView getComBoxSelctedIndex:999];
+ nsAccountType =[_pickerTypeData objectAtIndex:accoutInde];
+
+ 
+ 2.显示或者隐藏一行
+  [_tztTableView SetImageHidenFlag:@"TZTYYB" bShow_:!show];
+ 
+ 3.隐藏分时下面的快买快卖 FenShiSupportTrade 配置成1
+*/
+
+//////////////////////////////////////////////////////////////测试账号
+/*
+ 【西部】
+ 测试地址:61.185.211.82 7778  激活手机号 15088702576   123456
+ 
+ 初次默认服务器登录账号 12007496 密码 112233
+ 
+ 交易账号 12007496  112233  112233   111111 （测试基金）
+ 
+ 融资融券  832000002 111111  111111
+ 
+ 
+ 
+ 15088702576（测试和正式的都可用此号码）
+ 西部测试地址:61.185.211.82 7778
+ 融资融券账号   西部证券
+ 832000002 111111	123456	123456
+ 普通交易
+ 32100205    222222    333333（888888）    111111
+ 12007496  交易密码：888888，通讯密码：112233（测试基金）
+ 基金：2026872     111111
+ 
+ 
+ pc对比
+ {融资融券账号:832000002-111111}
+ {普通交易账号:32100205-111111}
+ 
+ 2027417 111111 小额贷
+ 25003158 111111小额贷
+ 30013751
+ 12006060 111111 没钱 你试试
+ 
+ 
+ 2027417 111111 已开通所有权限
+ 32100205 111111 可测试开通权限
+ 12007496 112233 可测试没有上海和深圳的股东代码 提示开立股东代码后再开通权限功能
+ 12007496 里面的股东账户不是A股的是个基金户  权限展示首页不应显示上证A可开通
+ 2027417的t权限已经开通了 页面显示可开通
+*/
+
+//////////**********************************************xg
+/* 行情预警选中
+if (_bHaveWarning)
+[pAy addObject:@"|10419|tztTrendToolBtn.png|tztWarningSel.png"];
+else
+[pAy addObject:@"|10419|tztTrendToolBtn.png|tztWarning.png"];
+*/

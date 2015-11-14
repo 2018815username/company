@@ -1,0 +1,74 @@
+//
+//  tztHqBase.pch
+//  tztHqBase
+//
+//  Created by King on 15-1-19.
+//  Copyright (c) 2015年 tzt. All rights reserved.
+//
+
+#ifndef tztHqBase_tztHqBase_pch
+#define tztHqBase_tztHqBase_pch
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#define TZTNotifi_UpdateInfo                @"TZTNotifi_UpdateInfo"
+
+
+#define TZTNotifi_CheckTradeGrid            @"TZTNotifi_CheckTradeGrid"
+
+
+#define TZTMaxAccountType 11 //普通交易 融资融券交易
+
+#define TZTMaxAccount 11 //多账号最大账号数
+
+
+#import "tztAutoPushObj.h"
+
+#ifdef __OBJC__
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import <tztMobileBase/tztMoblieBasedef.h>
+#import <tztMobileBase/tztMobileBase.h>
+#import <tztMobileBase/tztNSLocation.h>
+//#import <tztMobileBase/tztStatusBar.h>
+//#import <tztMobileBase/tztPieView.h>
+#import <tztControl/tztControl.h>
+
+#import "TZTUserInfoDeal.h"
+#import "tztCardBankTransform.h"
+#import "tztJYLoginInfo.h"
+//#import "tztUserStock.h"
+#import "tztHqBaseView.h"
+#import "tztAutoPushObj.h"
+#import "tztBlockIndexInfo.h"
+#import "tztDetailView.h"
+#import "tztFenJiaView.h"
+#import "tztFinanceView.h"
+#import "tztHisTrendView.h"
+#import "tztHKQueueViee.h"
+#import "tztLargeCapitalView.h"
+#import "tztLargeMonitorView.h"
+#import "tztPriceView.h"
+#import "tztQuoteView.h"
+#import "tztReportListView.h"
+#import "tztReportPage.h"
+#import "tztScrollIndexView.h"
+#import "tztScrollIndexViewEx.h"
+#import "tztTechObj.h"
+#import "tztTechObjBase.h"
+#import "tztTechView.h"
+#import "tztTrendFundView.h"
+#import "tztTrendView.h"
+#import "tztUIEditValueView.h"
+#import "TZTUIFundFlowsView.h"
+#import "tztUIPickerView.h"
+
+
+
+#endif
+
+#endif
